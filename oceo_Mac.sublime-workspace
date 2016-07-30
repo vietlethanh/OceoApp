@@ -64,18 +64,18 @@
 	"buffers":
 	[
 		{
-			"file": "www/app/app.js",
+			"file": "www/app/mysale/mysale.js",
 			"settings":
 			{
-				"buffer_size": 18178,
+				"buffer_size": 4203,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "ionic.project",
+			"file": "platforms/ios/www/app/mysale/mysale.js",
 			"settings":
 			{
-				"buffer_size": 155,
+				"buffer_size": 4203,
 				"line_ending": "Windows"
 			}
 		}
@@ -104,6 +104,10 @@
 	},
 	"file_history":
 	[
+		"/Users/vietle/Projects/OceoApp/www/app/app.js",
+		"/Users/vietle/Projects/OceoApp/ionic.project",
+		"/Users/vietle/Projects/OceoApp/plugins/fetch.json",
+		"/Users/vietle/Projects/OceoApp/config.xml",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/storelocator/storelocator.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/common/services/services.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/common/utils/utils.js",
@@ -199,9 +203,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"<open folders>",
 			"/Users/vietle/Projects/KooKoo/KooKooApp/www/app",
 			"D:\\Desktop\\KooKooApp\\KooKooApp\\www\\app",
 			"D:\\Desktop\\KooKooApp\\KooKooApp\\www",
@@ -220,6 +225,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"kookoo",
 			"mysale",
 			"init",
 			"centerOnMe",
@@ -368,55 +374,52 @@
 			[
 				{
 					"buffer": 0,
-					"file": "www/app/app.js",
+					"file": "www/app/mysale/mysale.js",
 					"settings":
 					{
-						"buffer_size": 18178,
+						"buffer_size": 4203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13009,
-								13009
+								1585,
+								1733
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 8020.0,
+						"translation.x": 249.0,
+						"translation.y": 251.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "ionic.project",
+					"file": "platforms/ios/www/app/mysale/mysale.js",
 					"settings":
 					{
-						"buffer_size": 155,
+						"buffer_size": 4203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18,
-								18
+								1607,
+								1607
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 319.0,
+						"translation.y": 336.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
