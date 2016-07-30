@@ -1,7 +1,7 @@
 angular.module('Oceo.MySale', [
-	//'MCMRelationshop.Resource.Sale',
-	'MCMRelationshop.Sheet',
-	'MCMRelationshop.Push'
+	//'OceoECommerce.Resource.Sale',
+	'OceoECommerce.Sheet',
+	'OceoECommerce.Push'
 ])
 .controller('MySaleCtrl', ['$q','$scope', 'security', '$ionicLoading','$ionicPopup',
 	'APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',
@@ -55,7 +55,7 @@ angular.module('Oceo.MySale', [
 				   	height: 800,
 				   	quality: 80
 			};
-		
+			/*
 			$cordovaImagePicker.getPictures(pickerOptions)
 			    .then(function (results) {
 			      for (var i = 0; i < results.length; i++) {
@@ -64,6 +64,46 @@ angular.module('Oceo.MySale', [
 			    }, function(error) {
 			      // error getting photos
 			});  
+			*/
+			$scope.takePhoto = function () {
+                  var options = {
+                    quality: 75,
+                    destinationType: Camera.DestinationType.DATA_URL,
+                    sourceType: Camera.PictureSourceType.CAMERA,
+                    allowEdit: true,
+                    encodingType: Camera.EncodingType.JPEG,
+                    targetWidth: 300,
+                    targetHeight: 300,
+                    popoverOptions: CameraPopoverOptions,
+                    saveToPhotoAlbum: false
+                };
+   
+                    $cordovaCamera.getPicture(options).then(function (imageData) {
+                        $scope.imgURI = "data:image/jpeg;base64," + imageData;
+                    }, function (err) {
+                        // An error occured. Show a message to the user
+                    });
+            };
+                
+            $scope.choosePhoto = function () {
+              var options = {
+                quality: 75,
+                destinationType: Camera.DestinationType.DATA_URL,
+                sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
+                allowEdit: true,
+                encodingType: Camera.EncodingType.JPEG,
+                targetWidth: 300,
+                targetHeight: 300,
+                popoverOptions: CameraPopoverOptions,
+                saveToPhotoAlbum: false
+            	};
+
+                $cordovaCamera.getPicture(options).then(function (imageData) {
+                    $scope.imgURI = "data:image/jpeg;base64," + imageData;
+                }, function (err) {
+                    // An error occured. Show a message to the user
+                });
+            };
 		};
 
 		init();

@@ -3,7 +3,7 @@ angular.module('security.interceptor', [
 	'security.retryQueue', 
 	'security.info',
 	'angular-data.DSCacheFactory',
-	'MCMRelationshop.Utils'
+	'OceoECommerce.Utils'
 ])
 .factory('cacheHttpInterceptor', ['$q', '$log', 'securityInfo','APP_CONFIG', 'securityRetryQueue', '$injector','DSCacheFactory','CacheUtil','AppUtil',
 	function(q, log, info, appConfig, queue, $injector,DSCacheFactory,CacheUtil,AppUtil) {

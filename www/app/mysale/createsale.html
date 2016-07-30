@@ -1,21 +1,21 @@
-<ion-view title="Đăng bán" id="CreateSale">
+<ion-view title="Đăng mới" id="CreateSale">
 	<ion-nav-buttons side="left">
 		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
 	</ion-nav-buttons>
 	<ion-content class="has-header">
 		<form id="create-shoppinnglist-form" name="createShoppingListForm" novalidate ng-submit="save(create-shoppinnglist-form)">
 			<div class="list edit-account-list">
-				<div class="item item-divider">Save Your List</div>
+				<div class="item item-divider">Bạn muốn bán gì?</div>
 				
 				<label class="item item-input">
-					<input name="name" type="text" placeholder="List Name" ng-model="shoppinglist.ShoppingListName" required />
-					<span class="help-block" ng-show="showInvalid && createShoppingListForm.name.$error.required">This field is required</span>
+					<input name="name" type="text" placeholder="Tên sản phẩm" ng-model="shoppinglist.ShoppingListName" required />
+					<span class="help-block" ng-show="showInvalid && createShoppingListForm.name.$error.required"></span>
 			  	</label>
 			</div>
 			
 			<div class="row" >	
 				<div class="col" style="text-align: center">
-					<button class="button button-long button-positive" type="button" ng-click="cancel()">
+					<button class="button button-long button-positive" type="button" ng-click="choosePhoto()">
 						Cancel
 					</button>
 					<button class="button button-long button-positive" ng-disabled="createShoppingListForm.$invalid" type="submit" >

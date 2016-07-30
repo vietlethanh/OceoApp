@@ -1,8 +1,8 @@
-angular.module('MCMRelationshop.Account', [
-	'MCMRelationshop.Resource.User',
-	'MCMRelationshop.Resource.Store',
-	'MCMRelationshop.Directive.PasswordMatch',
-	'MCMRelationshop.StoreLocator'
+angular.module('OceoECommerce.Account', [
+	'OceoECommerce.Resource.User',
+	'OceoECommerce.Resource.Store',
+	'OceoECommerce.Directive.PasswordMatch',
+	'OceoECommerce.StoreLocator'
 ])
 
 .controller('AccountCtrl', ['$rootScope','$scope','$state','$q', 'Store', 'User', 'security','$ionicLoading','AppUtil','MCMTracker','ngFB',

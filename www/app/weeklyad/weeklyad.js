@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.WeeklyAd', [
-	'MCMRelationshop.Resource.Store',
-	'MCMRelationshop.Resource.ShoppingList'
+angular.module('OceoECommerce.WeeklyAd', [
+	'OceoECommerce.Resource.Store',
+	'OceoECommerce.Resource.ShoppingList'
 ])
 .controller('WeeklyAdCtrl', ['$scope','$state','$stateParams', '$q', 'security', 'Store','ShoppingList','DSCacheFactory','$ionicLoading', 'toaster','MCMTracker','$ionicPopup','APP_CONFIG','$ionicViewService','$timeout',
 	function($scope, $state, $stateParams, $q, security, store,shoppinglist, DSCacheFactory, $ionicLoading, toaster, MCMTracker, $ionicPopup,APP_CONFIG, $ionicViewService,$timeout

@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Analytics', [
-	'MCMRelationshop.Utils'
+angular.module('OceoECommerce.Analytics', [
+	'OceoECommerce.Utils'
 ])
 .factory('MCMAnalytics', ['$rootScope','security','$http','APP_CONFIG','AppUtil','toaster',
 	function($rootScope, security, $http, APP_CONFIG, AppUtil,toaster){

@@ -1,8 +1,8 @@
-angular.module('MCMRelationshop.RewardsProgram', [
-	'MCMRelationshop.Resource.SmartRewards',
-	'MCMRelationshop.Utils',
-	'MCMRelationshop.Resource.Setting',
-	'MCMRelationshop.BarcodeDirective'
+angular.module('OceoECommerce.RewardsProgram', [
+	'OceoECommerce.Resource.SmartRewards',
+	'OceoECommerce.Utils',
+	'OceoECommerce.Resource.Setting',
+	'OceoECommerce.BarcodeDirective'
 ])
 .controller('RewardsProgramCtrl', ['$scope','$stateParams','$q', 'security', 'SmartRewards','Store', 'Setting', '$ionicLoading','$ionicPopup','$ionicScrollDelegate','$filter','APP_CONFIG','MCMTracker','toaster','$timeout',
 	function($scope,$stateParams, $q, security, SmartRewards, Store, Setting, $ionicLoading, $ionicPopup, $ionicScrollDelegate, $filter, APP_CONFIG,MCMTracker,toaster, $timeout ) {  

@@ -1,7 +1,7 @@
-angular.module('MCMRelationshop.Resource.User', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.User', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory',
-	'MCMRelationshop.Config',
+	'OceoECommerce.Config',
 ])
 .factory('User', ['$http','HttpUtil','CacheUtil','APP_CONFIG',
 	function($http, HttpUtil, CacheUtil,APP_CONFIG){

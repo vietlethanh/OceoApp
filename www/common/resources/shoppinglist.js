@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Resource.ShoppingList', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.ShoppingList', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory',
 	'security'
 ])

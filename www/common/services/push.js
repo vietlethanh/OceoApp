@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.Push', [
+angular.module('OceoECommerce.Push', [
 	'toaster',
-	'MCMRelationshop.Utils'
+	'OceoECommerce.Utils'
 ])
 .service('phone', function() {
 	this.isAndroid = function() {

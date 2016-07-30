@@ -1,7 +1,7 @@
-angular.module('MCMRelationshop.Recipe', [
-	'MCMRelationshop.Resource.Recipe',
-	'MCMRelationshop.Resource.RecipeBox',
-	'MCMRelationshop.Utils'
+angular.module('OceoECommerce.Recipe', [
+	'OceoECommerce.Resource.Recipe',
+	'OceoECommerce.Resource.RecipeBox',
+	'OceoECommerce.Utils'
 ])
 .controller('RecipeCatsCtrl', ['$scope','$state', 'security', 'Recipe','CacheUtil', '$ionicLoading','MCMTracker',
 function($scope, $state ,security, Recipe, CacheUtil, $ionicLoading,MCMTracker){

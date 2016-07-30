@@ -1,9 +1,9 @@
-angular.module('MCMRelationshop.Register', [
-	'MCMRelationshop.Resource.User',
-	'MCMRelationshop.Resource.Setting',
-	'MCMRelationshop.Directive.PasswordMatch',
-	'MCMRelationshop.Directive.FormDirective',
-	'MCMRelationshop.Directive.Compile'
+angular.module('OceoECommerce.Register', [
+	'OceoECommerce.Resource.User',
+	'OceoECommerce.Resource.Setting',
+	'OceoECommerce.Directive.PasswordMatch',
+	'OceoECommerce.Directive.FormDirective',
+	'OceoECommerce.Directive.Compile'
 ])
 .controller('RegisterCtrl', ['$q', '$rootScope', '$scope','$state', '$stateParams', 'AppUtil','CacheUtil','User','Setting', '$ionicLoading','$ionicPopup','APP_CONFIG','security','MCMTracker','toaster','$ionicViewService', '$ionicScrollDelegate', 'GuestShoppingList', 'UserShoppingList',
 	function($q, $rootScope, $scope, $state, $stateParams ,AppUtil, CacheUtil, User, Setting, $ionicLoading,$ionicPopup, APP_CONFIG, security, MCMTracker, toaster, $ionicViewService, $ionicScrollDelegate, GuestShoppingList, UserShoppingList) {

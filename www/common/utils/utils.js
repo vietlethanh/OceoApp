@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Utils', [
-	'MCMRelationshop.Config', 
+angular.module('OceoECommerce.Utils', [
+	'OceoECommerce.Config', 
 	'angular-data.DSCacheFactory'
 ])
 .factory('HttpUtil',['$ionicLoading',function($ionicLoading){

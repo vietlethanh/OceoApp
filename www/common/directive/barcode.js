@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.BarcodeDirective',[
+angular.module('OceoECommerce.BarcodeDirective',[
 ])
 .directive('barcode', ['$timeout',
 	function($timeout){

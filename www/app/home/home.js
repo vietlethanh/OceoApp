@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.Home', [
-	'MCMRelationshop.Resource.Ads',
-	'MCMRelationshop.Analytics'
+angular.module('OceoECommerce.Home', [
+	'OceoECommerce.Resource.Ads',
+	'OceoECommerce.Analytics'
 ])
 /*
 .controller('HomeCtrl', [

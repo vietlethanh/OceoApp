@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Resource.Store', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.Store', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory'
 ])
 .factory('Store', ['$q','$http','DSCacheFactory','HttpUtil','CacheUtil','AppUtil','APP_CONFIG',

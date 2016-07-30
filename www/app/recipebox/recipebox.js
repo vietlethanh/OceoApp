@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.RecipeBox', [
-	'MCMRelationshop.Resource.RecipeBox',
-	'MCMRelationshop.Utils'
+angular.module('OceoECommerce.RecipeBox', [
+	'OceoECommerce.Resource.RecipeBox',
+	'OceoECommerce.Utils'
 ])
 .controller('RecipeBoxCtrl',['$scope', '$state', '$stateParams', 'security', 'RecipeBox', 'CacheUtil','$ionicLoading','MCMTracker','AppUtil','APP_CONFIG',
 function($scope, $state, $stateParams, security, RecipeBox, CacheUtil, $ionicLoading,MCMTracker,AppUtil,APP_CONFIG){

@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.Services', [
-	'MCMRelationshop.Utils',
-	'MCMRelationshop.Resource.Store',
+angular.module('OceoECommerce.Services', [
+	'OceoECommerce.Utils',
+	'OceoECommerce.Resource.Store',
 	'security.service'
 ])
 .factory('TrackingGPS', ['$http','HttpUtil','AppUtil','$cordovaGeolocation','Store','security','$ionicPopup','APP_CONFIG',

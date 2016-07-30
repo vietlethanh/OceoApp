@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.Filter',[
+angular.module('OceoECommerce.Filter',[
 ])
 .filter('tel', function () {
 	return function (tel) {

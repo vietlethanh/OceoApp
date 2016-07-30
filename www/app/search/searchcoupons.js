@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.SearchCoupons', [
-	'MCMRelationshop.Resource.DigitalCoupon',
-	'MCMRelationshop.Resource.SmartRewards'
+angular.module('OceoECommerce.SearchCoupons', [
+	'OceoECommerce.Resource.DigitalCoupon',
+	'OceoECommerce.Resource.SmartRewards'
 ])
 .controller('SearchCouponsCtrl', ['$scope', '$state', '$stateParams', 'security', 'DigitalCoupon', '$ionicLoading','$ionicPopup','APP_CONFIG','MCMTracker',
 	function($scope, $state, $stateParams, security, DigitalCoupon, $ionicLoading,$ionicPopup, APP_CONFIG, MCMTracker) {  

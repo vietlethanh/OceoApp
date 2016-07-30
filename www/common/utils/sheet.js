@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.Sheet', [])
+angular.module('OceoECommerce.Sheet', [])
 .directive('mcmSheet', ['$document', function($document) {
   return {
     restrict: 'E',

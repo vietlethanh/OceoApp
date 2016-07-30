@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.Services', [
+angular.module('OceoECommerce.Services', [
 ])
 .factory('RelationshopDataService', [
 	function(){

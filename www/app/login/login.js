@@ -1,6 +1,6 @@
-angular.module('MCMRelationshop.Login', [
+angular.module('OceoECommerce.Login', [
 	'security',
-	'MCMRelationshop.Resource.ShoppingList',
+	'OceoECommerce.Resource.ShoppingList',
 	'ipCookie',
 	'ngCordovaOauth'
 	

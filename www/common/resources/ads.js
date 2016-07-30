@@ -1,7 +1,7 @@
-angular.module('MCMRelationshop.Resource.Ads', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.Ads', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory',
-	'MCMRelationshop.Config',
+	'OceoECommerce.Config',
 ])
 .factory('Ads', ['$http','HttpUtil',
 	function($http, HttpUtil){

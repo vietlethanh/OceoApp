@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.Directive.PasswordMatch', [])
+angular.module('OceoECommerce.Directive.PasswordMatch', [])
 	.directive('pwCheck', ['$parse',
 	function ($parse) {
 		return {

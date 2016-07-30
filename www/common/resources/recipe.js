@@ -1,7 +1,7 @@
-angular.module('MCMRelationshop.Resource.Recipe', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.Recipe', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory',
-	'MCMRelationshop.Config',
+	'OceoECommerce.Config',
 ])
 .factory('Recipe', ['$http','HttpUtil','security',
 	function($http, HttpUtil, security){

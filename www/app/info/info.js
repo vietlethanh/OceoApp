@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Info', [
-	'MCMRelationshop.Resource.Setting'
+angular.module('OceoECommerce.Info', [
+	'OceoECommerce.Resource.Setting'
 ])
 .controller('InfoCtrl', ['$scope','$state','APP_CONFIG','MCMTracker',
 	function($scope, $state,APP_CONFIG, MCMTracker) {  

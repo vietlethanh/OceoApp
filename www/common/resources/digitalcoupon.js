@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Resource.DigitalCoupon', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.DigitalCoupon', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory'
 ])
 .factory('DigitalCoupon', ['$http','HttpUtil','security',

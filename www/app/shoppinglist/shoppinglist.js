@@ -1,7 +1,7 @@
-angular.module('MCMRelationshop.ShoppingList', [
-	'MCMRelationshop.Resource.ShoppingList',
-	'MCMRelationshop.Sheet',
-	'MCMRelationshop.Push'
+angular.module('OceoECommerce.ShoppingList', [
+	'OceoECommerce.Resource.ShoppingList',
+	'OceoECommerce.Sheet',
+	'OceoECommerce.Push'
 ])
 .controller('ShoppingListCtrl', ['$q','$scope', 'security', 'ShoppingList','CheckedShoppingItem','$ionicLoading','$ionicPopup','APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',
 	function($q,$scope, security, ShoppingList,CheckedShoppingItem , $ionicLoading,$ionicPopup, APP_CONFIG, $Sheet, $ionicModal,MCMTracker, $ionicScrollDelegate,$timeout, phone, toaster){

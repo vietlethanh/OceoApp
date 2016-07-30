@@ -1,7 +1,7 @@
-angular.module('MCMRelationshop.Search', [
-	'MCMRelationshop.Resource.Setting',
-	'MCMRelationshop.StoreLocator',
-	'MCMRelationshop.ShoppingList'
+angular.module('OceoECommerce.Search', [
+	'OceoECommerce.Resource.Setting',
+	'OceoECommerce.StoreLocator',
+	'OceoECommerce.ShoppingList'
 ])
 .controller('SearchCtrl', ['$scope', '$state', '$stateParams', 'security','Setting','ShoppingList', '$ionicLoading','$ionicPopup','APP_CONFIG','CacheUtil','toaster','MCMTracker','$ionicViewService','$location',
 	function($scope, $state, $stateParams, security, Setting, ShoppingList, $ionicLoading,$ionicPopup, APP_CONFIG, CacheUtil,toaster,MCMTracker, $ionicViewService, $location) {  

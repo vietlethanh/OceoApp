@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('MCMRelationshop', [
+angular.module('OceoECommerce', [
 
 	'ionic',
 	'ngCordova',
@@ -14,38 +14,38 @@ angular.module('MCMRelationshop', [
 	'ionic-ratings',
 	'Scope.safeApply',
 	'uiGmapgoogle-maps',
-	'MCMRelationshop.Push',
-	'MCMRelationshop.Config',
+	'OceoECommerce.Push',
+	'OceoECommerce.Config',
 	'security',
-	'MCMRelationshop.Resource.Store',
-	'MCMRelationshop.Resource.User',
-	'MCMRelationshop.StoreLocator', 
-	'MCMRelationshop.Analytics',
-	'MCMRelationshop.Login',
-	'MCMRelationshop.Account',
+	'OceoECommerce.Resource.Store',
+	'OceoECommerce.Resource.User',
+	'OceoECommerce.StoreLocator', 
+	'OceoECommerce.Analytics',
+	'OceoECommerce.Login',
+	'OceoECommerce.Account',
 	'Oceo.MySale',
 	//TODO Delete
 	
-	'MCMRelationshop.Intro',
-	'MCMRelationshop.Home',
+	'OceoECommerce.Intro',
+	'OceoECommerce.Home',
 	
-	'MCMRelationshop.Register',
+	'OceoECommerce.Register',
 
-	'MCMRelationshop.WeeklyAd',
-	'MCMRelationshop.ShoppingList',
-	'MCMRelationshop.Recipe',
-	'MCMRelationshop.DigitalCoupon',
+	'OceoECommerce.WeeklyAd',
+	'OceoECommerce.ShoppingList',
+	'OceoECommerce.Recipe',
+	'OceoECommerce.DigitalCoupon',
 	
-	'MCMRelationshop.RewardsProgram',
+	'OceoECommerce.RewardsProgram',
 	
-	'MCMRelationshop.RecipeBox',
-	'MCMRelationshop.Info',
-	'MCMRelationshop.Search',
-	'MCMRelationshop.SearchCoupons',
+	'OceoECommerce.RecipeBox',
+	'OceoECommerce.Info',
+	'OceoECommerce.Search',
+	'OceoECommerce.SearchCoupons',
 
 	//Angular Utils
 	'ui.utils',
-	'MCMRelationshop.Filter',
+	'OceoECommerce.Filter',
 	'ionic.contrib.drawer'
 	
 

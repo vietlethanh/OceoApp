@@ -75,6 +75,368 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "www/app/app.js",
+			"settings":
+			{
+				"buffer_size": 18123,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/config.js",
+			"settings":
+			{
+				"buffer_size": 5133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/account/account.js",
+			"settings":
+			{
+				"buffer_size": 8750,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/digitalcoupon/digitalcoupon.js",
+			"settings":
+			{
+				"buffer_size": 3287,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/home/home.js",
+			"settings":
+			{
+				"buffer_size": 1830,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/info/info.js",
+			"settings":
+			{
+				"buffer_size": 2438,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/intro/intro.js",
+			"settings":
+			{
+				"buffer_size": 932,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/login/login.js",
+			"settings":
+			{
+				"buffer_size": 17627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/mysale/mysale.js",
+			"settings":
+			{
+				"buffer_size": 2494,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/recipe/recipe.js",
+			"settings":
+			{
+				"buffer_size": 12394,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/recipebox/recipebox.js",
+			"settings":
+			{
+				"buffer_size": 2084,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/register/register.js",
+			"settings":
+			{
+				"buffer_size": 16098,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/rewardsprogram/rewardsprogram.js",
+			"settings":
+			{
+				"buffer_size": 12846,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/search/search.js",
+			"settings":
+			{
+				"buffer_size": 3170,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/search/searchcoupons.js",
+			"settings":
+			{
+				"buffer_size": 1705,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/shoppinglist/shoppinglist.js",
+			"settings":
+			{
+				"buffer_size": 20152,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/storelocator/storedetail.js",
+			"settings":
+			{
+				"buffer_size": 10563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/storelocator/storelocator - Copy.js",
+			"settings":
+			{
+				"buffer_size": 30664,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/storelocator/storelocator.js",
+			"settings":
+			{
+				"buffer_size": 31806,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app/weeklyad/weeklyad.js",
+			"settings":
+			{
+				"buffer_size": 13777,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/directive/barcode.js",
+			"settings":
+			{
+				"buffer_size": 1111,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/directive/compile.js",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/directive/formdirective.js",
+			"settings":
+			{
+				"buffer_size": 1947,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/directive/passwordmatch.js",
+			"settings":
+			{
+				"buffer_size": 737,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/filter/filters.js",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/ads.js",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/digitalcoupon.js",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/recipe.js",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/recipebox.js",
+			"settings":
+			{
+				"buffer_size": 2545,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/setting.js",
+			"settings":
+			{
+				"buffer_size": 771,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/shoppinglist.js",
+			"settings":
+			{
+				"buffer_size": 16024,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/smartreward.js",
+			"settings":
+			{
+				"buffer_size": 3066,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/store.js",
+			"settings":
+			{
+				"buffer_size": 6314,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/tracker.js",
+			"settings":
+			{
+				"buffer_size": 527,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/resources/user.js",
+			"settings":
+			{
+				"buffer_size": 2384,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/security/interceptor.js",
+			"settings":
+			{
+				"buffer_size": 3947,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/security/security.js",
+			"settings":
+			{
+				"buffer_size": 3960,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/services/analytic.js",
+			"settings":
+			{
+				"buffer_size": 2733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/services/push.js",
+			"settings":
+			{
+				"buffer_size": 3464,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/services/relationshop_data.js",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/services/services.js",
+			"settings":
+			{
+				"buffer_size": 2647,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/utils/sheet.js",
+			"settings":
+			{
+				"buffer_size": 4496,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/utils/utils.js",
+			"settings":
+			{
+				"buffer_size": 11034,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 949 files for \"MCMRelationshop\"\n\nD:\\Desktop\\OceoApp\\www\\index.html:\n  198    </head>\n  199  \n  200:   <body ng-app=\"MCMRelationshop\" >\n  201    	<!--div id=\"splash\"><img src=\"http://img3.wikia.nocookie.net/__cb20130530125633/logopedia/images/3/37/Coca-Cola-Logo.jpg\"></div--> \n  202  	<ion-nav-view>\n\nD:\\Desktop\\OceoApp\\www\\app\\config.js:\n  127  env.liveappdev = angular.extend({}, livedev, unitedAppCfg, {IsWeb: false}, matchedCodes);\n  128  \n  129: angular.module('MCMRelationshop.Config', [])\n  130  .constant('APP_CONFIG', env.localweb);\n  131  \n\nD:\\Desktop\\OceoApp\\www\\app\\account\\account.js:\n    1: angular.module('MCMRelationshop.Account', [\n    2: 	'MCMRelationshop.Resource.User',\n    3: 	'MCMRelationshop.Resource.Store',\n    4: 	'MCMRelationshop.Directive.PasswordMatch',\n    5: 	'MCMRelationshop.StoreLocator'\n    6  ])\n    7  \n\nD:\\Desktop\\OceoApp\\www\\app\\digitalcoupon\\digitalcoupon.js:\n    1: angular.module('MCMRelationshop.DigitalCoupon', [\n    2: 	'MCMRelationshop.Resource.DigitalCoupon',\n    3: 	'MCMRelationshop.Resource.SmartRewards'\n    4  ])\n    5  .controller('DigitalCouponCtrl', ['$scope','$state','$stateParams', '$q', 'security', 'DigitalCoupon', 'SmartRewards','$ionicLoading','MCMTracker', 'APP_CONFIG',\n\nD:\\Desktop\\OceoApp\\www\\app\\home\\home.js:\n    1: angular.module('MCMRelationshop.Home', [\n    2: 	'MCMRelationshop.Resource.Ads',\n    3: 	'MCMRelationshop.Analytics'\n    4  ])\n    5  /*\n\nD:\\Desktop\\OceoApp\\www\\app\\info\\info.js:\n    1: angular.module('MCMRelationshop.Info', [\n    2: 	'MCMRelationshop.Resource.Setting'\n    3  ])\n    4  .controller('InfoCtrl', ['$scope','$state','APP_CONFIG','MCMTracker',\n\nD:\\Desktop\\OceoApp\\www\\app\\intro\\intro.js:\n    1: angular.module('MCMRelationshop.Intro', [\n    2: 	'MCMRelationshop.Utils'\n    3  ])\n    4  .controller('IntroCtrl', ['$scope','$state','CacheUtil','MCMTracker','$ionicViewService',\n\nD:\\Desktop\\OceoApp\\www\\app\\login\\login.js:\n    1: angular.module('MCMRelationshop.Login', [\n    2  	'security',\n    3: 	'MCMRelationshop.Resource.ShoppingList',\n    4  	'ipCookie',\n    5  	'ngCordovaOauth'\n\nD:\\Desktop\\OceoApp\\www\\app\\mysale\\mysale.js:\n    1  angular.module('Oceo.MySale', [\n    2: 	//'MCMRelationshop.Resource.Sale',\n    3: 	'MCMRelationshop.Sheet',\n    4: 	'MCMRelationshop.Push'\n    5  ])\n    6  .controller('MySaleCtrl', ['$q','$scope', 'security', '$ionicLoading','$ionicPopup',\n\nD:\\Desktop\\OceoApp\\www\\app\\recipe\\recipe.js:\n    1: angular.module('MCMRelationshop.Recipe', [\n    2: 	'MCMRelationshop.Resource.Recipe',\n    3: 	'MCMRelationshop.Resource.RecipeBox',\n    4: 	'MCMRelationshop.Utils'\n    5  ])\n    6  .controller('RecipeCatsCtrl', ['$scope','$state', 'security', 'Recipe','CacheUtil', '$ionicLoading','MCMTracker',\n\nD:\\Desktop\\OceoApp\\www\\app\\recipebox\\recipebox.js:\n    1: angular.module('MCMRelationshop.RecipeBox', [\n    2: 	'MCMRelationshop.Resource.RecipeBox',\n    3: 	'MCMRelationshop.Utils'\n    4  ])\n    5  .controller('RecipeBoxCtrl',['$scope', '$state', '$stateParams', 'security', 'RecipeBox', 'CacheUtil','$ionicLoading','MCMTracker','AppUtil','APP_CONFIG',\n\nD:\\Desktop\\OceoApp\\www\\app\\register\\register.js:\n    1: angular.module('MCMRelationshop.Register', [\n    2: 	'MCMRelationshop.Resource.User',\n    3: 	'MCMRelationshop.Resource.Setting',\n    4: 	'MCMRelationshop.Directive.PasswordMatch',\n    5: 	'MCMRelationshop.Directive.FormDirective',\n    6: 	'MCMRelationshop.Directive.Compile'\n    7  ])\n    8  .controller('RegisterCtrl', ['$q', '$rootScope', '$scope','$state', '$stateParams', 'AppUtil','CacheUtil','User','Setting', '$ionicLoading','$ionicPopup','APP_CONFIG','security','MCMTracker','toaster','$ionicViewService', '$ionicScrollDelegate', 'GuestShoppingList', 'UserShoppingList',\n\nD:\\Desktop\\OceoApp\\www\\app\\rewardsprogram\\rewardsprogram.js:\n    1: angular.module('MCMRelationshop.RewardsProgram', [\n    2: 	'MCMRelationshop.Resource.SmartRewards',\n    3: 	'MCMRelationshop.Utils',\n    4: 	'MCMRelationshop.Resource.Setting',\n    5: 	'MCMRelationshop.BarcodeDirective'\n    6  ])\n    7  .controller('RewardsProgramCtrl', ['$scope','$stateParams','$q', 'security', 'SmartRewards','Store', 'Setting', '$ionicLoading','$ionicPopup','$ionicScrollDelegate','$filter','APP_CONFIG','MCMTracker','toaster','$timeout',\n\nD:\\Desktop\\OceoApp\\www\\app\\search\\search.js:\n    1: angular.module('MCMRelationshop.Search', [\n    2: 	'MCMRelationshop.Resource.Setting',\n    3: 	'MCMRelationshop.StoreLocator',\n    4: 	'MCMRelationshop.ShoppingList'\n    5  ])\n    6  .controller('SearchCtrl', ['$scope', '$state', '$stateParams', 'security','Setting','ShoppingList', '$ionicLoading','$ionicPopup','APP_CONFIG','CacheUtil','toaster','MCMTracker','$ionicViewService','$location',\n\nD:\\Desktop\\OceoApp\\www\\app\\search\\searchcoupons.js:\n    1: angular.module('MCMRelationshop.SearchCoupons', [\n    2: 	'MCMRelationshop.Resource.DigitalCoupon',\n    3: 	'MCMRelationshop.Resource.SmartRewards'\n    4  ])\n    5  .controller('SearchCouponsCtrl', ['$scope', '$state', '$stateParams', 'security', 'DigitalCoupon', '$ionicLoading','$ionicPopup','APP_CONFIG','MCMTracker',\n\nD:\\Desktop\\OceoApp\\www\\app\\shoppinglist\\shoppinglist.js:\n    1: angular.module('MCMRelationshop.ShoppingList', [\n    2: 	'MCMRelationshop.Resource.ShoppingList',\n    3: 	'MCMRelationshop.Sheet',\n    4: 	'MCMRelationshop.Push'\n    5  ])\n    6  .controller('ShoppingListCtrl', ['$q','$scope', 'security', 'ShoppingList','CheckedShoppingItem','$ionicLoading','$ionicPopup','APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',\n\nD:\\Desktop\\OceoApp\\www\\app\\storelocator\\storedetail.js:\n    1  \n    2: angular.module('MCMRelationshop.StoreLocator', function(){\n    3    if(isOnline()){\n    4      return [\n    5        'uiGmapgoogle-maps',\n    6:       'MCMRelationshop.Resource.Store',\n    7:       'MCMRelationshop.Utils',\n    8:       'MCMRelationshop.Services'\n    9      ]\n   10    }\n   11    else {\n   12      return [\n   13:       'MCMRelationshop.Resource.Store',\n   14:       'MCMRelationshop.Utils',\n   15:       'MCMRelationshop.Services'      \n   16      ]\n   17    }\n   ..\n   20  [\n   21    'google-maps',\n   22:   'MCMRelationshop.Resource.Store',\n   23:   'MCMRelationshop.Utils'\n   24  ]*/)\n   25  .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout',\n\nD:\\Desktop\\OceoApp\\www\\app\\storelocator\\storelocator - Copy.js:\n    1  \n    2: angular.module('MCMRelationshop.StoreLocator', function(){\n    3    if(isOnline()){\n    4      return [\n    5        'uiGmapgoogle-maps',\n    6:       'MCMRelationshop.Resource.Store',\n    7:       'MCMRelationshop.Utils',\n    8:       'MCMRelationshop.Services'\n    9      ]\n   10    }\n   11    else {\n   12      return [\n   13:       'MCMRelationshop.Resource.Store',\n   14:       'MCMRelationshop.Utils',\n   15:        'MCMRelationshop.Services'\n   16      ]\n   17    }\n   ..\n   20  [\n   21    'google-maps',\n   22:   'MCMRelationshop.Resource.Store',\n   23:   'MCMRelationshop.Utils'\n   24  ]*/)\n   25  .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout','security','$ionicViewService','$state',\n\nD:\\Desktop\\OceoApp\\www\\app\\storelocator\\storelocator.js:\n    1  \n    2: angular.module('MCMRelationshop.StoreLocator', function(){\n    3    if(isOnline()){\n    4      return [\n    5        'uiGmapgoogle-maps',\n    6:       'MCMRelationshop.Resource.Store',\n    7:       'MCMRelationshop.Utils',\n    8:       'MCMRelationshop.Services'\n    9      ]\n   10    }\n   11    else {\n   12      return [\n   13:       'MCMRelationshop.Resource.Store',\n   14:       'MCMRelationshop.Utils',\n   15:        'MCMRelationshop.Services'\n   16      ]\n   17    }\n   ..\n   20  [\n   21    'google-maps',\n   22:   'MCMRelationshop.Resource.Store',\n   23:   'MCMRelationshop.Utils'\n   24  ]*/)\n   25  .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout','security','$ionicViewService','$state',\n\nD:\\Desktop\\OceoApp\\www\\app\\weeklyad\\weeklyad.js:\n    1: angular.module('MCMRelationshop.WeeklyAd', [\n    2: 	'MCMRelationshop.Resource.Store',\n    3: 	'MCMRelationshop.Resource.ShoppingList'\n    4  ])\n    5  .controller('WeeklyAdCtrl', ['$scope','$state','$stateParams', '$q', 'security', 'Store','ShoppingList','DSCacheFactory','$ionicLoading', 'toaster','MCMTracker','$ionicPopup','APP_CONFIG','$ionicViewService','$timeout',\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\barcode.js:\n    1: angular.module('MCMRelationshop.BarcodeDirective',[\n    2  ])\n    3  .directive('barcode', ['$timeout',\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\compile.js:\n    1: angular.module('MCMRelationshop.Directive.Compile', [], function($compileProvider){\n    2  	$compileProvider.directive('compile', ['$parse', '$compile', function($parse, $compile) {\n    3  		return function(scope, element, attrs){\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\formdirective.js:\n    1: angular.module('MCMRelationshop.Directive.FormDirective',[\n    2  ])\n    3  .directive('match', ['$parse',\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\passwordmatch.js:\n    1: angular.module('MCMRelationshop.Directive.PasswordMatch', [])\n    2  	.directive('pwCheck', ['$parse',\n    3  	function ($parse) {\n\nD:\\Desktop\\OceoApp\\www\\common\\filter\\filters.js:\n    1: angular.module('MCMRelationshop.Filter',[\n    2  ])\n    3  .filter('tel', function () {\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\ads.js:\n    1: angular.module('MCMRelationshop.Resource.Ads', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('Ads', ['$http','HttpUtil',\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\digitalcoupon.js:\n    1: angular.module('MCMRelationshop.Resource.DigitalCoupon', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\recipe.js:\n    1: angular.module('MCMRelationshop.Resource.Recipe', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('Recipe', ['$http','HttpUtil','security',\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\recipebox.js:\n    1: angular.module('MCMRelationshop.Resource.RecipeBox', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4  	'security'\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\setting.js:\n    1: angular.module('MCMRelationshop.Resource.Setting', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('Setting', ['$http','HttpUtil',\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\shoppinglist.js:\n    1: angular.module('MCMRelationshop.Resource.ShoppingList', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4  	'security'\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\smartreward.js:\n    1: angular.module('MCMRelationshop.Resource.SmartRewards', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\store.js:\n    1: angular.module('MCMRelationshop.Resource.Store', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\tracker.js:\n    1: angular.module('MCMRelationshop.Resource.Tracker', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\user.js:\n    1: angular.module('MCMRelationshop.Resource.User', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('User', ['$http','HttpUtil','CacheUtil','APP_CONFIG',\n\nD:\\Desktop\\OceoApp\\www\\common\\security\\interceptor.js:\n    4  	'security.info',\n    5  	'angular-data.DSCacheFactory',\n    6: 	'MCMRelationshop.Utils'\n    7  ])\n    8  .factory('cacheHttpInterceptor', ['$q', '$log', 'securityInfo','APP_CONFIG', 'securityRetryQueue', '$injector','DSCacheFactory','CacheUtil','AppUtil',\n\nD:\\Desktop\\OceoApp\\www\\common\\security\\security.js:\n    4  	'security.info',\n    5  	'security.retryQueue',\n    6: 	'MCMRelationshop.Config', \n    7: 	'MCMRelationshop.Utils'\n    8  ])\n    9  \n\nD:\\Desktop\\OceoApp\\www\\common\\services\\analytic.js:\n    1: angular.module('MCMRelationshop.Analytics', [\n    2: 	'MCMRelationshop.Utils'\n    3  ])\n    4  .factory('MCMAnalytics', ['$rootScope','security','$http','APP_CONFIG','AppUtil','toaster',\n\nD:\\Desktop\\OceoApp\\www\\common\\services\\push.js:\n    1: angular.module('MCMRelationshop.Push', [\n    2  	'toaster',\n    3: 	'MCMRelationshop.Utils'\n    4  ])\n    5  .service('phone', function() {\n\nD:\\Desktop\\OceoApp\\www\\common\\services\\relationshop_data.js:\n    1: angular.module('MCMRelationshop.Services', [\n    2  ])\n    3  .factory('RelationshopDataService', [\n\nD:\\Desktop\\OceoApp\\www\\common\\services\\services.js:\n    1: angular.module('MCMRelationshop.Services', [\n    2: 	'MCMRelationshop.Utils',\n    3: 	'MCMRelationshop.Resource.Store',\n    4  	'security.service'\n    5  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\utils\\sheet.js:\n    1: angular.module('MCMRelationshop.Sheet', [])\n    2  .directive('mcmSheet', ['$document', function($document) {\n    3    return {\n\nD:\\Desktop\\OceoApp\\www\\common\\utils\\utils.js:\n    1: angular.module('MCMRelationshop.Utils', [\n    2: 	'MCMRelationshop.Config', \n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\n124 matches across 43 files\n\n\nSearching 949 files for \"MCMRelationshop\"\n\nD:\\Desktop\\OceoApp\\www\\index.html:\n  198    </head>\n  199  \n  200:   <body ng-app=\"MCMRelationshop\" >\n  201    	<!--div id=\"splash\"><img src=\"http://img3.wikia.nocookie.net/__cb20130530125633/logopedia/images/3/37/Coca-Cola-Logo.jpg\"></div--> \n  202  	<ion-nav-view>\n\nD:\\Desktop\\OceoApp\\www\\app\\app.js:\n    5  // the 2nd parameter is an array of 'requires'\n    6  // 'starter.controllers' is found in controllers.js\n    7: angular.module('MCMRelationshop', [\n    8  \n    9  	'ionic',\n   ..\n   15  	'Scope.safeApply',\n   16  	'uiGmapgoogle-maps',\n   17: 	'MCMRelationshop.Push',\n   18: 	'MCMRelationshop.Config',\n   19  	'security',\n   20: 	'MCMRelationshop.Resource.Store',\n   21: 	'MCMRelationshop.Resource.User',\n   22: 	'MCMRelationshop.StoreLocator', \n   23: 	'MCMRelationshop.Analytics',\n   24: 	'MCMRelationshop.Login',\n   25: 	'MCMRelationshop.Account',\n   26  	'Oceo.MySale',\n   27  	//TODO Delete\n   28  	\n   29: 	'MCMRelationshop.Intro',\n   30: 	'MCMRelationshop.Home',\n   31  	\n   32: 	'MCMRelationshop.Register',\n   33  \n   34: 	'MCMRelationshop.WeeklyAd',\n   35: 	'MCMRelationshop.ShoppingList',\n   36: 	'MCMRelationshop.Recipe',\n   37: 	'MCMRelationshop.DigitalCoupon',\n   38  	\n   39: 	'MCMRelationshop.RewardsProgram',\n   40  	\n   41: 	'MCMRelationshop.RecipeBox',\n   42: 	'MCMRelationshop.Info',\n   43: 	'MCMRelationshop.Search',\n   44: 	'MCMRelationshop.SearchCoupons',\n   45  \n   46  	//Angular Utils\n   47  	'ui.utils',\n   48: 	'MCMRelationshop.Filter',\n   49  	'ionic.contrib.drawer'\n   50  	\n\nD:\\Desktop\\OceoApp\\www\\app\\config.js:\n  127  env.liveappdev = angular.extend({}, livedev, unitedAppCfg, {IsWeb: false}, matchedCodes);\n  128  \n  129: angular.module('MCMRelationshop.Config', [])\n  130  .constant('APP_CONFIG', env.localweb);\n  131  \n\nD:\\Desktop\\OceoApp\\www\\app\\account\\account.js:\n    1: angular.module('MCMRelationshop.Account', [\n    2: 	'MCMRelationshop.Resource.User',\n    3: 	'MCMRelationshop.Resource.Store',\n    4: 	'MCMRelationshop.Directive.PasswordMatch',\n    5: 	'MCMRelationshop.StoreLocator'\n    6  ])\n    7  \n\nD:\\Desktop\\OceoApp\\www\\app\\digitalcoupon\\digitalcoupon.js:\n    1: angular.module('MCMRelationshop.DigitalCoupon', [\n    2: 	'MCMRelationshop.Resource.DigitalCoupon',\n    3: 	'MCMRelationshop.Resource.SmartRewards'\n    4  ])\n    5  .controller('DigitalCouponCtrl', ['$scope','$state','$stateParams', '$q', 'security', 'DigitalCoupon', 'SmartRewards','$ionicLoading','MCMTracker', 'APP_CONFIG',\n\nD:\\Desktop\\OceoApp\\www\\app\\home\\home.js:\n    1: angular.module('MCMRelationshop.Home', [\n    2: 	'MCMRelationshop.Resource.Ads',\n    3: 	'MCMRelationshop.Analytics'\n    4  ])\n    5  /*\n\nD:\\Desktop\\OceoApp\\www\\app\\info\\info.js:\n    1: angular.module('MCMRelationshop.Info', [\n    2: 	'MCMRelationshop.Resource.Setting'\n    3  ])\n    4  .controller('InfoCtrl', ['$scope','$state','APP_CONFIG','MCMTracker',\n\nD:\\Desktop\\OceoApp\\www\\app\\intro\\intro.js:\n    1: angular.module('MCMRelationshop.Intro', [\n    2: 	'MCMRelationshop.Utils'\n    3  ])\n    4  .controller('IntroCtrl', ['$scope','$state','CacheUtil','MCMTracker','$ionicViewService',\n\nD:\\Desktop\\OceoApp\\www\\app\\login\\login.js:\n    1: angular.module('MCMRelationshop.Login', [\n    2  	'security',\n    3: 	'MCMRelationshop.Resource.ShoppingList',\n    4  	'ipCookie',\n    5  	'ngCordovaOauth'\n\nD:\\Desktop\\OceoApp\\www\\app\\mysale\\mysale.js:\n    1  angular.module('Oceo.MySale', [\n    2: 	//'MCMRelationshop.Resource.Sale',\n    3: 	'MCMRelationshop.Sheet',\n    4: 	'MCMRelationshop.Push'\n    5  ])\n    6  .controller('MySaleCtrl', ['$q','$scope', 'security', '$ionicLoading','$ionicPopup',\n\nD:\\Desktop\\OceoApp\\www\\app\\recipe\\recipe.js:\n    1: angular.module('MCMRelationshop.Recipe', [\n    2: 	'MCMRelationshop.Resource.Recipe',\n    3: 	'MCMRelationshop.Resource.RecipeBox',\n    4: 	'MCMRelationshop.Utils'\n    5  ])\n    6  .controller('RecipeCatsCtrl', ['$scope','$state', 'security', 'Recipe','CacheUtil', '$ionicLoading','MCMTracker',\n\nD:\\Desktop\\OceoApp\\www\\app\\recipebox\\recipebox.js:\n    1: angular.module('MCMRelationshop.RecipeBox', [\n    2: 	'MCMRelationshop.Resource.RecipeBox',\n    3: 	'MCMRelationshop.Utils'\n    4  ])\n    5  .controller('RecipeBoxCtrl',['$scope', '$state', '$stateParams', 'security', 'RecipeBox', 'CacheUtil','$ionicLoading','MCMTracker','AppUtil','APP_CONFIG',\n\nD:\\Desktop\\OceoApp\\www\\app\\register\\register.js:\n    1: angular.module('MCMRelationshop.Register', [\n    2: 	'MCMRelationshop.Resource.User',\n    3: 	'MCMRelationshop.Resource.Setting',\n    4: 	'MCMRelationshop.Directive.PasswordMatch',\n    5: 	'MCMRelationshop.Directive.FormDirective',\n    6: 	'MCMRelationshop.Directive.Compile'\n    7  ])\n    8  .controller('RegisterCtrl', ['$q', '$rootScope', '$scope','$state', '$stateParams', 'AppUtil','CacheUtil','User','Setting', '$ionicLoading','$ionicPopup','APP_CONFIG','security','MCMTracker','toaster','$ionicViewService', '$ionicScrollDelegate', 'GuestShoppingList', 'UserShoppingList',\n\nD:\\Desktop\\OceoApp\\www\\app\\rewardsprogram\\rewardsprogram.js:\n    1: angular.module('MCMRelationshop.RewardsProgram', [\n    2: 	'MCMRelationshop.Resource.SmartRewards',\n    3: 	'MCMRelationshop.Utils',\n    4: 	'MCMRelationshop.Resource.Setting',\n    5: 	'MCMRelationshop.BarcodeDirective'\n    6  ])\n    7  .controller('RewardsProgramCtrl', ['$scope','$stateParams','$q', 'security', 'SmartRewards','Store', 'Setting', '$ionicLoading','$ionicPopup','$ionicScrollDelegate','$filter','APP_CONFIG','MCMTracker','toaster','$timeout',\n\nD:\\Desktop\\OceoApp\\www\\app\\search\\search.js:\n    1: angular.module('MCMRelationshop.Search', [\n    2: 	'MCMRelationshop.Resource.Setting',\n    3: 	'MCMRelationshop.StoreLocator',\n    4: 	'MCMRelationshop.ShoppingList'\n    5  ])\n    6  .controller('SearchCtrl', ['$scope', '$state', '$stateParams', 'security','Setting','ShoppingList', '$ionicLoading','$ionicPopup','APP_CONFIG','CacheUtil','toaster','MCMTracker','$ionicViewService','$location',\n\nD:\\Desktop\\OceoApp\\www\\app\\search\\searchcoupons.js:\n    1: angular.module('MCMRelationshop.SearchCoupons', [\n    2: 	'MCMRelationshop.Resource.DigitalCoupon',\n    3: 	'MCMRelationshop.Resource.SmartRewards'\n    4  ])\n    5  .controller('SearchCouponsCtrl', ['$scope', '$state', '$stateParams', 'security', 'DigitalCoupon', '$ionicLoading','$ionicPopup','APP_CONFIG','MCMTracker',\n\nD:\\Desktop\\OceoApp\\www\\app\\shoppinglist\\shoppinglist.js:\n    1: angular.module('MCMRelationshop.ShoppingList', [\n    2: 	'MCMRelationshop.Resource.ShoppingList',\n    3: 	'MCMRelationshop.Sheet',\n    4: 	'MCMRelationshop.Push'\n    5  ])\n    6  .controller('ShoppingListCtrl', ['$q','$scope', 'security', 'ShoppingList','CheckedShoppingItem','$ionicLoading','$ionicPopup','APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',\n\nD:\\Desktop\\OceoApp\\www\\app\\storelocator\\storedetail.js:\n    1  \n    2: angular.module('MCMRelationshop.StoreLocator', function(){\n    3    if(isOnline()){\n    4      return [\n    5        'uiGmapgoogle-maps',\n    6:       'MCMRelationshop.Resource.Store',\n    7:       'MCMRelationshop.Utils',\n    8:       'MCMRelationshop.Services'\n    9      ]\n   10    }\n   11    else {\n   12      return [\n   13:       'MCMRelationshop.Resource.Store',\n   14:       'MCMRelationshop.Utils',\n   15:       'MCMRelationshop.Services'      \n   16      ]\n   17    }\n   ..\n   20  [\n   21    'google-maps',\n   22:   'MCMRelationshop.Resource.Store',\n   23:   'MCMRelationshop.Utils'\n   24  ]*/)\n   25  .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout',\n\nD:\\Desktop\\OceoApp\\www\\app\\storelocator\\storelocator - Copy.js:\n    1  \n    2: angular.module('MCMRelationshop.StoreLocator', function(){\n    3    if(isOnline()){\n    4      return [\n    5        'uiGmapgoogle-maps',\n    6:       'MCMRelationshop.Resource.Store',\n    7:       'MCMRelationshop.Utils',\n    8:       'MCMRelationshop.Services'\n    9      ]\n   10    }\n   11    else {\n   12      return [\n   13:       'MCMRelationshop.Resource.Store',\n   14:       'MCMRelationshop.Utils',\n   15:        'MCMRelationshop.Services'\n   16      ]\n   17    }\n   ..\n   20  [\n   21    'google-maps',\n   22:   'MCMRelationshop.Resource.Store',\n   23:   'MCMRelationshop.Utils'\n   24  ]*/)\n   25  .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout','security','$ionicViewService','$state',\n\nD:\\Desktop\\OceoApp\\www\\app\\storelocator\\storelocator.js:\n    1  \n    2: angular.module('MCMRelationshop.StoreLocator', function(){\n    3    if(isOnline()){\n    4      return [\n    5        'uiGmapgoogle-maps',\n    6:       'MCMRelationshop.Resource.Store',\n    7:       'MCMRelationshop.Utils',\n    8:       'MCMRelationshop.Services'\n    9      ]\n   10    }\n   11    else {\n   12      return [\n   13:       'MCMRelationshop.Resource.Store',\n   14:       'MCMRelationshop.Utils',\n   15:        'MCMRelationshop.Services'\n   16      ]\n   17    }\n   ..\n   20  [\n   21    'google-maps',\n   22:   'MCMRelationshop.Resource.Store',\n   23:   'MCMRelationshop.Utils'\n   24  ]*/)\n   25  .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout','security','$ionicViewService','$state',\n\nD:\\Desktop\\OceoApp\\www\\app\\weeklyad\\weeklyad.js:\n    1: angular.module('MCMRelationshop.WeeklyAd', [\n    2: 	'MCMRelationshop.Resource.Store',\n    3: 	'MCMRelationshop.Resource.ShoppingList'\n    4  ])\n    5  .controller('WeeklyAdCtrl', ['$scope','$state','$stateParams', '$q', 'security', 'Store','ShoppingList','DSCacheFactory','$ionicLoading', 'toaster','MCMTracker','$ionicPopup','APP_CONFIG','$ionicViewService','$timeout',\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\barcode.js:\n    1: angular.module('MCMRelationshop.BarcodeDirective',[\n    2  ])\n    3  .directive('barcode', ['$timeout',\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\compile.js:\n    1: angular.module('MCMRelationshop.Directive.Compile', [], function($compileProvider){\n    2  	$compileProvider.directive('compile', ['$parse', '$compile', function($parse, $compile) {\n    3  		return function(scope, element, attrs){\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\formdirective.js:\n    1: angular.module('MCMRelationshop.Directive.FormDirective',[\n    2  ])\n    3  .directive('match', ['$parse',\n\nD:\\Desktop\\OceoApp\\www\\common\\directive\\passwordmatch.js:\n    1: angular.module('MCMRelationshop.Directive.PasswordMatch', [])\n    2  	.directive('pwCheck', ['$parse',\n    3  	function ($parse) {\n\nD:\\Desktop\\OceoApp\\www\\common\\filter\\filters.js:\n    1: angular.module('MCMRelationshop.Filter',[\n    2  ])\n    3  .filter('tel', function () {\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\ads.js:\n    1: angular.module('MCMRelationshop.Resource.Ads', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('Ads', ['$http','HttpUtil',\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\digitalcoupon.js:\n    1: angular.module('MCMRelationshop.Resource.DigitalCoupon', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\recipe.js:\n    1: angular.module('MCMRelationshop.Resource.Recipe', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('Recipe', ['$http','HttpUtil','security',\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\recipebox.js:\n    1: angular.module('MCMRelationshop.Resource.RecipeBox', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4  	'security'\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\setting.js:\n    1: angular.module('MCMRelationshop.Resource.Setting', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('Setting', ['$http','HttpUtil',\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\shoppinglist.js:\n    1: angular.module('MCMRelationshop.Resource.ShoppingList', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4  	'security'\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\smartreward.js:\n    1: angular.module('MCMRelationshop.Resource.SmartRewards', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\store.js:\n    1: angular.module('MCMRelationshop.Resource.Store', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\tracker.js:\n    1: angular.module('MCMRelationshop.Resource.Tracker', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\resources\\user.js:\n    1: angular.module('MCMRelationshop.Resource.User', [\n    2: 	'MCMRelationshop.Utils',\n    3  	'angular-data.DSCacheFactory',\n    4: 	'MCMRelationshop.Config',\n    5  ])\n    6  .factory('User', ['$http','HttpUtil','CacheUtil','APP_CONFIG',\n\nD:\\Desktop\\OceoApp\\www\\common\\security\\interceptor.js:\n    4  	'security.info',\n    5  	'angular-data.DSCacheFactory',\n    6: 	'MCMRelationshop.Utils'\n    7  ])\n    8  .factory('cacheHttpInterceptor', ['$q', '$log', 'securityInfo','APP_CONFIG', 'securityRetryQueue', '$injector','DSCacheFactory','CacheUtil','AppUtil',\n\nD:\\Desktop\\OceoApp\\www\\common\\security\\security.js:\n    4  	'security.info',\n    5  	'security.retryQueue',\n    6: 	'MCMRelationshop.Config', \n    7: 	'MCMRelationshop.Utils'\n    8  ])\n    9  \n\nD:\\Desktop\\OceoApp\\www\\common\\services\\analytic.js:\n    1: angular.module('MCMRelationshop.Analytics', [\n    2: 	'MCMRelationshop.Utils'\n    3  ])\n    4  .factory('MCMAnalytics', ['$rootScope','security','$http','APP_CONFIG','AppUtil','toaster',\n\nD:\\Desktop\\OceoApp\\www\\common\\services\\push.js:\n    1: angular.module('MCMRelationshop.Push', [\n    2  	'toaster',\n    3: 	'MCMRelationshop.Utils'\n    4  ])\n    5  .service('phone', function() {\n\nD:\\Desktop\\OceoApp\\www\\common\\services\\relationshop_data.js:\n    1: angular.module('MCMRelationshop.Services', [\n    2  ])\n    3  .factory('RelationshopDataService', [\n\nD:\\Desktop\\OceoApp\\www\\common\\services\\services.js:\n    1: angular.module('MCMRelationshop.Services', [\n    2: 	'MCMRelationshop.Utils',\n    3: 	'MCMRelationshop.Resource.Store',\n    4  	'security.service'\n    5  ])\n\nD:\\Desktop\\OceoApp\\www\\common\\utils\\sheet.js:\n    1: angular.module('MCMRelationshop.Sheet', [])\n    2  .directive('mcmSheet', ['$document', function($document) {\n    3    return {\n\nD:\\Desktop\\OceoApp\\www\\common\\utils\\utils.js:\n    1: angular.module('MCMRelationshop.Utils', [\n    2: 	'MCMRelationshop.Config', \n    3  	'angular-data.DSCacheFactory'\n    4  ])\n\n146 matches across 44 files\n",
+			"settings":
+			{
+				"buffer_size": 28327,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 8964,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -108,11 +470,20 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Desktop/Oceo",
-		"/D/Desktop/Oceo/www"
+		"/D/Desktop/OceoApp/www",
+		"/D/Desktop/OceoApp/www/app",
+		"/D/Desktop/OceoApp/www/common",
+		"/D/Desktop/OceoApp/www/common/directive",
+		"/D/Desktop/OceoApp/www/common/filter",
+		"/D/Desktop/OceoApp/www/common/resources",
+		"/D/Desktop/OceoApp/www/common/security",
+		"/D/Desktop/OceoApp/www/common/services",
+		"/D/Desktop/OceoApp/www/common/utils"
 	],
 	"file_history":
 	[
+		"/D/Desktop/OceoApp/www/common/utils/sheet.js",
+		"/D/Desktop/KooKooApp/KooKooApp/www/common/directive/barcode.js",
 		"/D/Desktop/Oceo/oceo.sublime-project",
 		"/D/Desktop/KooKooApp/KooKooApp/www/app/storelocator/info.html",
 		"/D/Desktop/KooKooApp/KooKooApp/www/app/storelocator/storelocator.js",
@@ -210,6 +581,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"<open folders>",
 			"D:\\Desktop\\KooKooApp\\KooKooApp\\www",
 			"<current file>",
 			"D:\\Desktop\\KooKooApp\\KooKooApp\\www",
@@ -231,6 +603,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"MCMRelationshop",
 			"sha.js",
 			"sha",
 			"d2orf83",
@@ -357,8 +730,7 @@
 			"addCheckIn",
 			"_apiCirular2WeeklyAd",
 			"onSelectStore",
-			"onload",
-			"onSelectStore"
+			"onload"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -366,6 +738,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"OceoECommerce",
+			"OCEO",
 			"$scope",
 			"clearCache",
 			""
@@ -376,17 +750,2409 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "D:\\Desktop\\Oceo"
-		}
-	],
 	"groups":
 	[
 		{
+			"selected": 40,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/app/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/app/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/app/account/account.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/app/digitalcoupon/digitalcoupon.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/app/home/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/app/info/info.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/app/intro/intro.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/app/login/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/app/mysale/mysale.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/app/recipe/recipe.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "www/app/recipebox/recipebox.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "www/app/register/register.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "www/app/rewardsprogram/rewardsprogram.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "www/app/search/search.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "www/app/search/searchcoupons.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "www/app/shoppinglist/shoppinglist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "www/app/storelocator/storedetail.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "www/app/storelocator/storelocator - Copy.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "www/app/storelocator/storelocator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "www/app/weeklyad/weeklyad.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "www/common/directive/barcode.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "www/common/directive/compile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "www/common/directive/formdirective.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "www/common/directive/passwordmatch.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "www/common/filter/filters.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "www/common/resources/ads.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "www/common/resources/digitalcoupon.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "www/common/resources/recipe.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "www/common/resources/recipebox.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "www/common/resources/setting.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "www/common/resources/shoppinglist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "www/common/resources/smartreward.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "www/common/resources/store.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "www/common/resources/tracker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "www/common/resources/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "www/common/security/interceptor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "www/common/security/security.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "www/common/services/analytic.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "www/common/services/push.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "www/common/services/relationshop_data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "www/common/services/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "www/common/utils/sheet.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "www/common/utils/utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28327,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										126,
+										141
+									],
+									[
+										477,
+										492
+									],
+									[
+										631,
+										646
+									],
+									[
+										668,
+										683
+									],
+									[
+										709,
+										724
+									],
+									[
+										751,
+										766
+									],
+									[
+										802,
+										817
+									],
+									[
+										933,
+										948
+									],
+									[
+										976,
+										991
+									],
+									[
+										1026,
+										1041
+									],
+									[
+										1309,
+										1324
+									],
+									[
+										1343,
+										1358
+									],
+									[
+										1383,
+										1398
+									],
+									[
+										1495,
+										1510
+									],
+									[
+										1529,
+										1544
+									],
+									[
+										1717,
+										1732
+									],
+									[
+										1752,
+										1767
+									],
+									[
+										1949,
+										1964
+									],
+									[
+										2004,
+										2019
+									],
+									[
+										2185,
+										2200
+									],
+									[
+										2226,
+										2241
+									],
+									[
+										2259,
+										2274
+									],
+									[
+										2452,
+										2467
+									],
+									[
+										2488,
+										2503
+									],
+									[
+										2531,
+										2546
+									],
+									[
+										2577,
+										2592
+									],
+									[
+										2806,
+										2821
+									],
+									[
+										2845,
+										2860
+									],
+									[
+										2891,
+										2906
+									],
+									[
+										3159,
+										3174
+									],
+									[
+										3197,
+										3212
+									],
+									[
+										3238,
+										3253
+									],
+									[
+										3282,
+										3297
+									],
+									[
+										3333,
+										3348
+									],
+									[
+										3384,
+										3399
+									],
+									[
+										3808,
+										3823
+									],
+									[
+										3852,
+										3867
+									],
+									[
+										3901,
+										3916
+									],
+									[
+										3934,
+										3949
+									],
+									[
+										3978,
+										3993
+									],
+									[
+										4321,
+										4336
+									],
+									[
+										4357,
+										4372
+									],
+									[
+										4401,
+										4416
+									],
+									[
+										4441,
+										4456
+									],
+									[
+										4775,
+										4790
+									],
+									[
+										4818,
+										4833
+									],
+									[
+										4868,
+										4883
+									],
+									[
+										5161,
+										5176
+									],
+									[
+										5203,
+										5218
+									],
+									[
+										5252,
+										5267
+									],
+									[
+										5285,
+										5300
+									],
+									[
+										5642,
+										5657
+									],
+									[
+										5778,
+										5793
+									],
+									[
+										5825,
+										5840
+									],
+									[
+										5863,
+										5878
+									],
+									[
+										5963,
+										5978
+									],
+									[
+										6010,
+										6025
+									],
+									[
+										6048,
+										6063
+									],
+									[
+										6153,
+										6168
+									],
+									[
+										6196,
+										6211
+									],
+									[
+										6463,
+										6478
+									],
+									[
+										6599,
+										6614
+									],
+									[
+										6646,
+										6661
+									],
+									[
+										6684,
+										6699
+									],
+									[
+										6784,
+										6799
+									],
+									[
+										6831,
+										6846
+									],
+									[
+										6870,
+										6885
+									],
+									[
+										6969,
+										6984
+									],
+									[
+										7012,
+										7027
+									],
+									[
+										7312,
+										7327
+									],
+									[
+										7448,
+										7463
+									],
+									[
+										7495,
+										7510
+									],
+									[
+										7533,
+										7548
+									],
+									[
+										7633,
+										7648
+									],
+									[
+										7680,
+										7695
+									],
+									[
+										7719,
+										7734
+									],
+									[
+										7818,
+										7833
+									],
+									[
+										7861,
+										7876
+									],
+									[
+										8145,
+										8160
+									],
+									[
+										8183,
+										8198
+									],
+									[
+										8225,
+										8240
+									],
+									[
+										8577,
+										8592
+									],
+									[
+										8741,
+										8756
+									],
+									[
+										9038,
+										9053
+									],
+									[
+										9211,
+										9226
+									],
+									[
+										9399,
+										9414
+									],
+									[
+										9543,
+										9558
+									],
+									[
+										9585,
+										9600
+									],
+									[
+										9657,
+										9672
+									],
+									[
+										9818,
+										9833
+									],
+									[
+										9870,
+										9885
+									],
+									[
+										10017,
+										10032
+									],
+									[
+										10062,
+										10077
+									],
+									[
+										10134,
+										10149
+									],
+									[
+										10305,
+										10320
+									],
+									[
+										10353,
+										10368
+									],
+									[
+										10511,
+										10526
+									],
+									[
+										10557,
+										10572
+									],
+									[
+										10629,
+										10644
+									],
+									[
+										10793,
+										10808
+									],
+									[
+										10844,
+										10859
+									],
+									[
+										11006,
+										11021
+									],
+									[
+										11057,
+										11072
+									],
+									[
+										11203,
+										11218
+									],
+									[
+										11247,
+										11262
+									],
+									[
+										11395,
+										11410
+									],
+									[
+										11441,
+										11456
+									],
+									[
+										11586,
+										11601
+									],
+									[
+										11629,
+										11644
+									],
+									[
+										11701,
+										11716
+									],
+									[
+										11935,
+										11950
+									],
+									[
+										12244,
+										12259
+									],
+									[
+										12279,
+										12294
+									],
+									[
+										12396,
+										12411
+									],
+									[
+										12435,
+										12450
+									],
+									[
+										12639,
+										12654
+									],
+									[
+										12692,
+										12707
+									],
+									[
+										12848,
+										12863
+									],
+									[
+										13008,
+										13023
+									],
+									[
+										13046,
+										13061
+									],
+									[
+										13079,
+										13094
+									],
+									[
+										13219,
+										13234
+									],
+									[
+										13401,
+										13416
+									],
+									[
+										13436,
+										13451
+									],
+									[
+										13667,
+										13682
+									],
+									[
+										14023,
+										14038
+									],
+									[
+										14139,
+										14154
+									],
+									[
+										14171,
+										14186
+									],
+									[
+										14225,
+										14240
+									],
+									[
+										14267,
+										14282
+									],
+									[
+										14308,
+										14323
+									],
+									[
+										14349,
+										14364
+									],
+									[
+										14386,
+										14401
+									],
+									[
+										14419,
+										14434
+									],
+									[
+										14508,
+										14523
+									],
+									[
+										14541,
+										14556
+									],
+									[
+										14582,
+										14597
+									],
+									[
+										14626,
+										14641
+									],
+									[
+										14662,
+										14677
+									],
+									[
+										14702,
+										14717
+									],
+									[
+										14736,
+										14751
+									],
+									[
+										14786,
+										14801
+									],
+									[
+										14837,
+										14852
+									],
+									[
+										14874,
+										14889
+									],
+									[
+										14906,
+										14921
+									],
+									[
+										14940,
+										14955
+									],
+									[
+										15033,
+										15048
+									],
+									[
+										15265,
+										15280
+									],
+									[
+										15419,
+										15434
+									],
+									[
+										15456,
+										15471
+									],
+									[
+										15497,
+										15512
+									],
+									[
+										15539,
+										15554
+									],
+									[
+										15590,
+										15605
+									],
+									[
+										15721,
+										15736
+									],
+									[
+										15764,
+										15779
+									],
+									[
+										15814,
+										15829
+									],
+									[
+										16097,
+										16112
+									],
+									[
+										16131,
+										16146
+									],
+									[
+										16171,
+										16186
+									],
+									[
+										16283,
+										16298
+									],
+									[
+										16317,
+										16332
+									],
+									[
+										16505,
+										16520
+									],
+									[
+										16540,
+										16555
+									],
+									[
+										16737,
+										16752
+									],
+									[
+										16792,
+										16807
+									],
+									[
+										16973,
+										16988
+									],
+									[
+										17014,
+										17029
+									],
+									[
+										17047,
+										17062
+									],
+									[
+										17240,
+										17255
+									],
+									[
+										17276,
+										17291
+									],
+									[
+										17319,
+										17334
+									],
+									[
+										17365,
+										17380
+									],
+									[
+										17594,
+										17609
+									],
+									[
+										17633,
+										17648
+									],
+									[
+										17679,
+										17694
+									],
+									[
+										17947,
+										17962
+									],
+									[
+										17985,
+										18000
+									],
+									[
+										18026,
+										18041
+									],
+									[
+										18070,
+										18085
+									],
+									[
+										18121,
+										18136
+									],
+									[
+										18172,
+										18187
+									],
+									[
+										18596,
+										18611
+									],
+									[
+										18640,
+										18655
+									],
+									[
+										18689,
+										18704
+									],
+									[
+										18722,
+										18737
+									],
+									[
+										18766,
+										18781
+									],
+									[
+										19109,
+										19124
+									],
+									[
+										19145,
+										19160
+									],
+									[
+										19189,
+										19204
+									],
+									[
+										19229,
+										19244
+									],
+									[
+										19563,
+										19578
+									],
+									[
+										19606,
+										19621
+									],
+									[
+										19656,
+										19671
+									],
+									[
+										19949,
+										19964
+									],
+									[
+										19991,
+										20006
+									],
+									[
+										20040,
+										20055
+									],
+									[
+										20073,
+										20088
+									],
+									[
+										20430,
+										20445
+									],
+									[
+										20566,
+										20581
+									],
+									[
+										20613,
+										20628
+									],
+									[
+										20651,
+										20666
+									],
+									[
+										20751,
+										20766
+									],
+									[
+										20798,
+										20813
+									],
+									[
+										20836,
+										20851
+									],
+									[
+										20941,
+										20956
+									],
+									[
+										20984,
+										20999
+									],
+									[
+										21251,
+										21266
+									],
+									[
+										21387,
+										21402
+									],
+									[
+										21434,
+										21449
+									],
+									[
+										21472,
+										21487
+									],
+									[
+										21572,
+										21587
+									],
+									[
+										21619,
+										21634
+									],
+									[
+										21658,
+										21673
+									],
+									[
+										21757,
+										21772
+									],
+									[
+										21800,
+										21815
+									],
+									[
+										22100,
+										22115
+									],
+									[
+										22236,
+										22251
+									],
+									[
+										22283,
+										22298
+									],
+									[
+										22321,
+										22336
+									],
+									[
+										22421,
+										22436
+									],
+									[
+										22468,
+										22483
+									],
+									[
+										22507,
+										22522
+									],
+									[
+										22606,
+										22621
+									],
+									[
+										22649,
+										22664
+									],
+									[
+										22933,
+										22948
+									],
+									[
+										22971,
+										22986
+									],
+									[
+										23013,
+										23028
+									],
+									[
+										23365,
+										23380
+									],
+									[
+										23529,
+										23544
+									],
+									[
+										23826,
+										23841
+									],
+									[
+										23999,
+										24014
+									],
+									[
+										24187,
+										24202
+									],
+									[
+										24331,
+										24346
+									],
+									[
+										24373,
+										24388
+									],
+									[
+										24445,
+										24460
+									],
+									[
+										24606,
+										24621
+									],
+									[
+										24658,
+										24673
+									],
+									[
+										24805,
+										24820
+									],
+									[
+										24850,
+										24865
+									],
+									[
+										24922,
+										24937
+									],
+									[
+										25093,
+										25108
+									],
+									[
+										25141,
+										25156
+									],
+									[
+										25299,
+										25314
+									],
+									[
+										25345,
+										25360
+									],
+									[
+										25417,
+										25432
+									],
+									[
+										25581,
+										25596
+									],
+									[
+										25632,
+										25647
+									],
+									[
+										25794,
+										25809
+									],
+									[
+										25845,
+										25860
+									],
+									[
+										25991,
+										26006
+									],
+									[
+										26035,
+										26050
+									],
+									[
+										26183,
+										26198
+									],
+									[
+										26229,
+										26244
+									],
+									[
+										26374,
+										26389
+									],
+									[
+										26417,
+										26432
+									],
+									[
+										26489,
+										26504
+									],
+									[
+										26723,
+										26738
+									],
+									[
+										27032,
+										27047
+									],
+									[
+										27067,
+										27082
+									],
+									[
+										27184,
+										27199
+									],
+									[
+										27223,
+										27238
+									],
+									[
+										27427,
+										27442
+									],
+									[
+										27480,
+										27495
+									],
+									[
+										27636,
+										27651
+									],
+									[
+										27796,
+										27811
+									],
+									[
+										27834,
+										27849
+									],
+									[
+										27867,
+										27882
+									],
+									[
+										28007,
+										28022
+									],
+									[
+										28189,
+										28204
+									],
+									[
+										28224,
+										28239
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								909,
+								909
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -426,10 +3192,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "",
+	"project": "oceo.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

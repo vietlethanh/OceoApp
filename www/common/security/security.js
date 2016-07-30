@@ -3,8 +3,8 @@ angular.module('security.service', [
 	'ui.router',
 	'security.info',
 	'security.retryQueue',
-	'MCMRelationshop.Config', 
-	'MCMRelationshop.Utils'
+	'OceoECommerce.Config', 
+	'OceoECommerce.Utils'
 ])
 
 .factory('security', ['$rootScope', '$http', 'HttpUtil', '$q', '$location', '$state', 'securityInfo', 'securityRetryQueue', '$log', 'APP_CONFIG','CacheUtil',

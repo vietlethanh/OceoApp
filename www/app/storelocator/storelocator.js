@@ -1,26 +1,26 @@
 
-angular.module('MCMRelationshop.StoreLocator', function(){
+angular.module('OceoECommerce.StoreLocator', function(){
   if(isOnline()){
     return [
       'uiGmapgoogle-maps',
-      'MCMRelationshop.Resource.Store',
-      'MCMRelationshop.Utils',
-      'MCMRelationshop.Services'
+      'OceoECommerce.Resource.Store',
+      'OceoECommerce.Utils',
+      'OceoECommerce.Services'
     ]
   }
   else {
     return [
-      'MCMRelationshop.Resource.Store',
-      'MCMRelationshop.Utils',
-       'MCMRelationshop.Services'
+      'OceoECommerce.Resource.Store',
+      'OceoECommerce.Utils',
+       'OceoECommerce.Services'
     ]
   }
 }()
 /*  
 [
   'google-maps',
-  'MCMRelationshop.Resource.Store',
-  'MCMRelationshop.Utils'
+  'OceoECommerce.Resource.Store',
+  'OceoECommerce.Utils'
 ]*/)
 .factory('BaseStoreLocatorCtrl',['APP_CONFIG', 'Store','AppUtil','$ionicLoading','MCMTracker','$ionicScrollDelegate','$timeout','security','$ionicViewService','$state',
   function(APP_CONFIG, Store,AppUtil,$ionicLoading,MCMTracker, $ionicScrollDelegate,$timeout,security,$ionicViewService,$state){

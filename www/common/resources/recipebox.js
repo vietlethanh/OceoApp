@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Resource.RecipeBox', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.RecipeBox', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory',
 	'security'
 ])

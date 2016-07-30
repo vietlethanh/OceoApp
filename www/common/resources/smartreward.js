@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Resource.SmartRewards', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.SmartRewards', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory'
 ])
 .factory('SmartRewards', ['$http','HttpUtil','security','CacheUtil',

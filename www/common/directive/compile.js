@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.Directive.Compile', [], function($compileProvider){
+angular.module('OceoECommerce.Directive.Compile', [], function($compileProvider){
 	$compileProvider.directive('compile', ['$parse', '$compile', function($parse, $compile) {
 		return function(scope, element, attrs){
 			scope.$watch(

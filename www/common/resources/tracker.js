@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Resource.Tracker', [
-	'MCMRelationshop.Utils',
+angular.module('OceoECommerce.Resource.Tracker', [
+	'OceoECommerce.Utils',
 	'angular-data.DSCacheFactory'
 ])
 .factory('Tracker', ['$q','$http','DSCacheFactory','HttpUtil','CacheUtil','AppUtil','APP_CONFIG',

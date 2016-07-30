@@ -1,4 +1,4 @@
-angular.module('MCMRelationshop.Directive.FormDirective',[
+angular.module('OceoECommerce.Directive.FormDirective',[
 ])
 .directive('match', ['$parse',
 	function ($parse) {

@@ -1,7 +1,7 @@
 {
-  "name": "kookooapp",
+  "name": "oceoapp",
   "version": "1.0.0",
-  "description": "KooKooApp: An Ionic project",
+  "description": "OceoApp: Marketplace Online",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-clean": "^0.3.1",

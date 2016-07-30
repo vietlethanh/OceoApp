@@ -1,5 +1,5 @@
-angular.module('MCMRelationshop.Intro', [
-	'MCMRelationshop.Utils'
+angular.module('OceoECommerce.Intro', [
+	'OceoECommerce.Utils'
 ])
 .controller('IntroCtrl', ['$scope','$state','CacheUtil','MCMTracker','$ionicViewService',
 	function($scope, $state, CacheUtil,MCMTracker, $ionicViewService) {  
