@@ -8,11 +8,33 @@
     },
     "installed_plugins": {
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.ionicframework.kookooapp766341"
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
         },
         "cordova-plugin-image-picker": {
-            "PACKAGE_NAME": "com.ionicframework.kookooapp766341"
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        }
+    }
 }

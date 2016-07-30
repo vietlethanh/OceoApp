@@ -67,32 +67,16 @@
 			"file": "www/app/app.js",
 			"settings":
 			{
-				"buffer_size": 17916,
-				"line_ending": "Unix"
+				"buffer_size": 18178,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/app/login/login.js",
+			"file": "ionic.project",
 			"settings":
 			{
-				"buffer_size": 19006,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/app/login/login.html",
-			"settings":
-			{
-				"buffer_size": 3292,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/app/config.js",
-			"settings":
-			{
-				"buffer_size": 4796,
-				"line_ending": "Unix"
+				"buffer_size": 155,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -120,20 +104,19 @@
 	},
 	"file_history":
 	[
-		"/Users/vietle/Projects/KooKoo/KooKooApp/www/index.html",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/gulpfile.js",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/www/css/ionic.app.css",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/index.html",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/login/login.js",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/login/login.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/storelocator/storelocator.js",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/config.js",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/package.json",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/app.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/common/services/services.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/common/utils/utils.js",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/storelocator/info.html",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/config.js",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/login/login.js",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/index.html",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/www/index.html",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/config.js",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/js/sha.js",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/js/app.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/rewardsprogram/rewardsprogram.js",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/app.js",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/storelocator/info.html",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/storelocator/storelocator.html",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/templates/menu.html",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/rewardsprogram/rewardsprogram.html",
@@ -141,10 +124,10 @@
 		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/app.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/scss/_search.scss",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/scss/_menu.scss",
-		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/config.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/storelocator/storelocator.js",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/www/app/login/login.html",
 		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/login/login.html",
+		"/Users/vietle/Projects/KooKoo/KooKooApp/platforms/ios/www/app/login/login.js",
 		"/D/Desktop/KooKooApp/KooKooApp/www/app/app.js",
 		"/D/Projects/RelationShop2015/Mobile/bigy2/ionic.project",
 		"/D/Desktop/KooKooApp/KooKooApp/www/index.html",
@@ -237,6 +220,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mysale",
 			"init",
 			"centerOnMe",
 			"$state.go",
@@ -387,15 +371,15 @@
 					"file": "www/app/app.js",
 					"settings":
 					{
-						"buffer_size": 17916,
+						"buffer_size": 18178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17916,
-								17916
+								13009,
+								13009
 							]
 						],
 						"settings":
@@ -404,88 +388,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8020.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "www/app/login/login.js",
+					"file": "ionic.project",
 					"settings":
 					{
-						"buffer_size": 19006,
+						"buffer_size": 155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								19006
+								18,
+								18
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3626.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "www/app/login/login.html",
-					"settings":
-					{
-						"buffer_size": 3292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1228
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 404.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "www/app/config.js",
-					"settings":
-					{
-						"buffer_size": 4796,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2628,
-								2628
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 619.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

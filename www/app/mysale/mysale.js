@@ -38,8 +38,8 @@ angular.module('Oceo.MySale', [
 		MCMTracker.trackView('MySale');		
 	}
 ])
-.controller('CreateSaleCtrl', ['$scope', '$q', 'security','APP_CONFIG', '$ionicLoading', '$ionicPopup', '$cordovaImagePicker',
-	function($scope, $q, security, APP_CONFIG, $ionicLoading, $ionicPopup,$cordovaImagePicker) {
+.controller('CreateSaleCtrl', ['$scope', '$q', 'security','APP_CONFIG', '$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera',
+	function($scope, $q, security, APP_CONFIG, $ionicLoading, $ionicPopup,$cordovaImagePicker,$cordovaCamera) {
 		
 		// private properties -------------------------------------------------------------
 		
