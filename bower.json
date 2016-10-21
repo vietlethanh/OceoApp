@@ -20,7 +20,8 @@
     "ionic-ratings": "~0.2.0",
     "lodash": "~3.10.1",
     "ng-cordova-oauth": "~0.1.4",
-    "ionic-ion-drawer": "*"
+    "ionic-ion-drawer": "*",
+    "angular-input-masks": "^2.5.0"
   },
   "resolutions": {
     "angular": ">=1.4.0",

@@ -3,22 +3,48 @@
 		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
 	</ion-nav-buttons>
 	<ion-content class="has-header">
-		<form id="create-shoppinnglist-form" name="createShoppingListForm" novalidate ng-submit="save(create-shoppinnglist-form)">
-			<div class="list edit-account-list">
+		<form id="create-sale-form" name="createSaleForm" novalidate ng-submit="save(create-sale-form)">
+			<div class="list edit-list">
 				<div class="item item-divider">Bạn muốn bán gì?</div>
 				
 				<label class="item item-input">
-					<input name="name" type="text" placeholder="Tên sản phẩm" ng-model="shoppinglist.ShoppingListName" required />
-					<span class="help-block" ng-show="showInvalid && createShoppingListForm.name.$error.required"></span>
+					<input name="productName" type="text" placeholder="Tên sản phẩm" ng-model="newsale.ProductName" required minlength="5" maxlength="50" />
+					<span class="help-block" ng-show="showInvalid && createSaleForm.name.$error.required"></span>
 			  	</label>
+			  	<label class="item item-input">
+					<input type="text" placeholder="Giá bán" ng-model="newsale.ProductPrice" ui-number-mask="0" min="1000" max="100000000000" maxlength="15" minlength="4" >
+					<span class="help-block" ng-show="showInvalid && createSaleForm.name.$error.required"></span>
+			  	</label>
+			  	<label class="item item-input">
+					<textarea placeholder="Mô tả"" placeholder="Mô tả" ng-model="newsale.ProductDesc"></textarea>
+			  	</label>
+			  
+			  
 			</div>
-			
+			<div class="row" >
+				<div class="col col-50"> 
+					<label class="" style="vertical-align: middle;">Hình ảnh</label></div>
+				<div class="col"> 
+					<button class="button button-small" >
+						Chụp hình
+					</button>
+				</div>
+				<div class="col"> 
+					<button class="button button-small" ng-click="choosePhoto()">
+					Chọn hình
+					</button>
+				</div>
+		    </div>
+		  
+	    	<div class="row" ng-repeat="img in images" ng-show="images.count()>0">	
+				<img ng-src="{{img}}" />
+			</div>
 			<div class="row" >	
 				<div class="col" style="text-align: center">
-					<button class="button button-long button-positive" type="button" ng-click="choosePhoto()">
+					<button class="button button-long button-positive" type="button" >
 						Cancel
 					</button>
-					<button class="button button-long button-positive" ng-disabled="createShoppingListForm.$invalid" type="submit" >
+					<button class="button button-long button-positive" ng-disabled="createSaleForm.$invalid" type="submit" >
 						Save
 					</button>
 				</div>

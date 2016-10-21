@@ -1,7 +1,8 @@
 angular.module('Oceo.MySale', [
 	//'OceoECommerce.Resource.Sale',
 	'OceoECommerce.Sheet',
-	'OceoECommerce.Push'
+	'OceoECommerce.Push',
+	'ui.utils.masks'
 ])
 .controller('MySaleCtrl', ['$q','$scope', 'security', '$ionicLoading','$ionicPopup',
 	'APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',

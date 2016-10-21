@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "OceoApp: Marketplace Online",
   "dependencies": {
+    "angular-input-masks": "^2.5.0",
     "gulp": "^3.5.6",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.2.0",
