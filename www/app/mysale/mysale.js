@@ -39,15 +39,16 @@ angular.module('Oceo.MySale', [
 		MCMTracker.trackView('MySale');		
 	}
 ])
-.controller('CreateSaleCtrl', ['$scope', '$q', 'security','APP_CONFIG', '$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera',
-	function($scope, $q, security, APP_CONFIG, $ionicLoading, $ionicPopup,$cordovaImagePicker,$cordovaCamera) {
+.controller('CreateSaleCtrl', ['$scope', '$q', 'security','APP_CONFIG', '$cordovaFileTransfer','$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera',
+	function($scope, $q, security, APP_CONFIG, $cordovaFileTransfer,$ionicLoading, $ionicPopup,$cordovaImagePicker,$cordovaCamera) {
 		
 		// private properties -------------------------------------------------------------
-		
+		var userId = security.getCurrentUserId(),
 		// public properties -------------------------------------------------------------
 		
 		// scope properties -------------------------------------------------------------
-		
+		$scope.images = [];
+		$scope.newsale = {};
 		// private method -------------------------------------------------------------
 		var init = function(){
 			var pickerOptions = {
@@ -56,6 +57,7 @@ angular.module('Oceo.MySale', [
 				   	height: 800,
 				   	quality: 80
 			};
+
 			/*
 			$cordovaImagePicker.getPictures(pickerOptions)
 			    .then(function (results) {
@@ -69,18 +71,19 @@ angular.module('Oceo.MySale', [
 			$scope.takePhoto = function () {
                   var options = {
                     quality: 75,
-                    destinationType: Camera.DestinationType.DATA_URL,
+                    destinationType: Camera.DestinationType.FILE_URI,
                     sourceType: Camera.PictureSourceType.CAMERA,
                     allowEdit: true,
                     encodingType: Camera.EncodingType.JPEG,
                     targetWidth: 300,
                     targetHeight: 300,
                     popoverOptions: CameraPopoverOptions,
-                    saveToPhotoAlbum: false
+                    saveToPhotoAlbum: true
                 };
    
-                    $cordovaCamera.getPicture(options).then(function (imageData) {
-                        $scope.imgURI = "data:image/jpeg;base64," + imageData;
+                    $cordovaCamera.getPicture(options).then(function (imageUri) {
+                        //$scope.imgURI = "data:image/jpeg;base64," + imageData;
+                        $scope.images.push(imageUri);
                     }, function (err) {
                         // An error occured. Show a message to the user
                     });
@@ -89,22 +92,64 @@ angular.module('Oceo.MySale', [
             $scope.choosePhoto = function () {
               var options = {
                 quality: 75,
-                destinationType: Camera.DestinationType.DATA_URL,
+                destinationType: Camera.DestinationType.FILE_URI,
                 sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
-                allowEdit: true,
-                encodingType: Camera.EncodingType.JPEG,
+                allowEdit: false,
+                //encodingType: Camera.EncodingType.JPEG,
                 targetWidth: 300,
                 targetHeight: 300,
                 popoverOptions: CameraPopoverOptions,
                 saveToPhotoAlbum: false
             	};
 
-                $cordovaCamera.getPicture(options).then(function (imageData) {
-                    $scope.imgURI = "data:image/jpeg;base64," + imageData;
+                $cordovaCamera.getPicture(options).then(function (imageUri) {
+                    //$scope.imgURI = "data:image/jpeg;base64," + imageData;
+                    // File name only
+				    var filename = imageUri.split("/").pop();
+				    console.log(cordova.file.externalRootDirectory);
+				    console.log(imageUri);
+				     // Destination URL 
+     				var url = "http://kookoo.local:8080/bg_sale.php";
+				    var options = {
+				          fileKey: "file",
+				          fileName: filename,
+				          chunkedMode: false,
+				          mimeType: "image/jpg",
+				          params : {'directory':'upload', 'fileName':filename}
+				      };
+				           
+				    $cordovaFileTransfer.upload(url, imageUri, options).then(function (result) {
+				          console.log("SUCCESS: " + JSON.stringify(result.response));
+				      }, function (err) {
+				          console.log("ERROR: " + JSON.stringify(err));
+				      }, function (progress) {
+				          // PROGRESS HANDLING GOES HERE
+				      });
+                    $scope.images.push(imageUri);
                 }, function (err) {
                     // An error occured. Show a message to the user
                 });
             };
+            //public method -------------------------------------------------------------
+			$scope.save = function(form){
+				if(form.invalid){
+					return;
+				}
+				addSale();
+			};
+			
+			var addSale = function($event){
+				if(!$scope.newsale){
+					return;
+				}
+				$ionicLoading.show();
+				return Sale.addSale($scope.newsale, userId)
+				.then(function(res){
+					$scope.newsale= {};
+							
+					//return loadData();
+				});
+			};
 		};
 
 		init();

@@ -30,6 +30,12 @@
         },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ionicframework.oceoapp766341"
         }
     },
     "dependent_plugins": {

@@ -67,15 +67,7 @@
 			"file": "www/app/mysale/mysale.js",
 			"settings":
 			{
-				"buffer_size": 4203,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "platforms/ios/www/app/mysale/mysale.js",
-			"settings":
-			{
-				"buffer_size": 4203,
+				"buffer_size": 4350,
 				"line_ending": "Windows"
 			}
 		}
@@ -104,6 +96,9 @@
 	},
 	"file_history":
 	[
+		"/Users/vietle/Projects/OceoApp/platforms/ios/www/app/mysale/mysale.js",
+		"/Users/vietle/Projects/OceoApp/www/app/mysale/createsale.html",
+		"/Users/vietle/Projects/OceoApp/bower.json",
 		"/Users/vietle/Projects/OceoApp/www/app/app.js",
 		"/Users/vietle/Projects/OceoApp/ionic.project",
 		"/Users/vietle/Projects/OceoApp/plugins/fetch.json",
@@ -203,7 +198,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"<open folders>",
@@ -369,7 +364,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -377,49 +372,23 @@
 					"file": "www/app/mysale/mysale.js",
 					"settings":
 					{
-						"buffer_size": 4203,
+						"buffer_size": 4350,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1585,
-								1733
+								3764,
+								3764
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 249.0,
-						"translation.y": 251.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "platforms/ios/www/app/mysale/mysale.js",
-					"settings":
-					{
-						"buffer_size": 4203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1607,
-								1607
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 319.0,
-						"translation.y": 336.0,
+						"translation.x": 0.0,
+						"translation.y": 1077.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

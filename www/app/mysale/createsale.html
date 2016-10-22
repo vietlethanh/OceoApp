@@ -12,11 +12,11 @@
 					<span class="help-block" ng-show="showInvalid && createSaleForm.name.$error.required"></span>
 			  	</label>
 			  	<label class="item item-input">
-					<input type="text" placeholder="Giá bán" ng-model="newsale.ProductPrice" ui-number-mask="0" min="1000" max="100000000000" maxlength="15" minlength="4" >
+					<input type="text" placeholder="Giá bán" ng-model="newsale.Price" ui-number-mask="0" min="1000" max="100000000000" maxlength="15" minlength="4" >
 					<span class="help-block" ng-show="showInvalid && createSaleForm.name.$error.required"></span>
 			  	</label>
 			  	<label class="item item-input">
-					<textarea placeholder="Mô tả"" placeholder="Mô tả" ng-model="newsale.ProductDesc"></textarea>
+					<textarea placeholder="Mô tả"" placeholder="Mô tả" ng-model="newsale.Description"></textarea>
 			  	</label>
 			  
 			  
@@ -36,7 +36,7 @@
 				</div>
 		    </div>
 		  
-	    	<div class="row" ng-repeat="img in images" ng-show="images.count()>0">	
+	    	<div class="row" ng-repeat="img in images" ng-show="images.length > 0">	
 				<img ng-src="{{img}}" />
 			</div>
 			<div class="row" >	
