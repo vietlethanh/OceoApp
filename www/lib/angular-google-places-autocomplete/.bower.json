@@ -1,0 +1,22 @@
+{
+  "name": "angular-google-places-autocomplete",
+  "version": "0.0.1",
+  "main": "./src/google-places-autocomplete.js",
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "~1.2.18",
+    "underscore": "~1.6.0",
+    "jquery": "1.11.1"
+  },
+  "homepage": "https://github.com/1337/ionic-google-places-autocomplete",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "22e98f570cb843697b32051fa40dfbc45b003493"
+  },
+  "_source": "https://github.com/1337/ionic-google-places-autocomplete.git",
+  "_target": "^0.0.1",
+  "_originalSource": "ionic-google-places-autocomplete",
+  "_direct": true
+}

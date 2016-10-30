@@ -11,6 +11,7 @@ angular.module('OceoECommerce', [
 	'toaster',
 	'ngOpenFB',
 	'ngMap',
+	'vsGoogleAutocomplete',	
 	'ionic-ratings',
 	'Scope.safeApply',
 	'uiGmapgoogle-maps',
@@ -119,13 +120,15 @@ angular.module('OceoECommerce', [
 				],
 				currentUser: ['$q', 'security','User','apiKey',
 					function($q, security, User, apiKey) {
-						console.log('resolve currentUser')
-						//
+						
 						var sInfo, defered;
 						sInfo = security.loadSecurityFromCache();
 						if(sInfo== null || !sInfo.currentUser){
 							return null;
 						}
+						console.log('resolve currentUser');
+						console.log(sInfo)
+						
 						security.setCurrentUser(sInfo.currentUser);
 						security.setCurrentStore(sInfo.currentStore);
 						//get CurrentUser
@@ -548,8 +551,8 @@ angular.module('OceoECommerce', [
 		})
 		
 	    // if none of the above states are matched, use this as the fallback
-		//$urlRouterProvider.otherwise('/app/login?hidebar=true');	
-		$urlRouterProvider.otherwise('/app/sale/create');	
+		$urlRouterProvider.otherwise('/app/login?hidebar=true');	
+		//$urlRouterProvider.otherwise('/app/sale/create');	
 			
 	
 })
@@ -562,6 +565,8 @@ angular.module('OceoECommerce', [
 		//console.log('$state');
 		//console.log($state);
 		$scope.HideBar = $stateParams.hidebar;
+		
+   
 		//console.log($stateParams);
 		//console.log($scope.HideBar);
 		$scope.loginData = {};
@@ -573,8 +578,8 @@ angular.module('OceoECommerce', [
 		$scope.selectedCategory = {};
   		
 		$scope.currentUser = security.getCurrentUser();
-		console.log('$scope.currentUser' );
-		console.log($scope.currentUser );
+		//console.log('$scope.currentUser' );
+		//console.log($scope.currentUser );
 		Store.getCategory().then(function(res){
 				$scope.categories = res.data;
 				$scope.categories.unshift({ArticleTypeID:"0" , ArticleTypeName: "Choose a Category"})

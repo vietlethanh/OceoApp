@@ -150,7 +150,7 @@ angular.module('OceoECommerce.Login', [
 	                    user.FullName = response.name;
 	                    user.Email = response.email;
 	                    user.UserName = response.email;
-	                    user.Password = response.email;
+	                    user.Password = response.email+user.ExternalID;
 	                    if(response.gender) {
 	                        response.gender.toString().toLowerCase() === 'male' ? user.Sex = 1 : user.Sex = 0;
 	                    } else {
@@ -164,11 +164,12 @@ angular.module('OceoECommerce.Login', [
 	                    }
 	                    
 	                    
-	                    console.log("FB getUserInfo");
-	                    console.log(user);
-	                    security.setCurrentUser(user);
+	                 
 	                    user.act = 19;//create account
 	                    User.createUser(user);
+	                    user.Password = '';
+	                    console.log(user);
+	                    security.setCurrentUser(user);
 	                   // $cookieStore.put('userInfo', user);
 	                   $rootScope.$broadcast('userLoggedIn',APP_CONFIG.SocialWeb.Facebook);
 	                   // $state.go('dashboard');
@@ -223,10 +224,13 @@ angular.module('OceoECommerce.Login', [
 		                    	user.Avatar = response.picture.data.url;
 		                    }
 		                    //user.Avatar = "http://graph.facebook.com/" + success.authResponse.userID + "/picture?type=large";
-		                    security.setCurrentUser(user);
 		                    user.act = 19;//create account
 		                    User.createUser(user);
-		                   // $cookieStore.put('userInfo', user);
+
+		                    user.Password = '';
+		                    console.log(user);
+		                    security.setCurrentUser(user);
+		                   
 		                   $rootScope.$broadcast('userLoggedIn',APP_CONFIG.SocialWeb.Facebook);
 
 						}, function(fail){
@@ -288,7 +292,7 @@ angular.module('OceoECommerce.Login', [
                 user.UserName = response.email;
                 user.Password = response.email;
                 
-                    user.Sex = '';
+                user.Sex = '';
                 
                 user.SocialWeb = APP_CONFIG.SocialWeb.Google;
                 user.Avatar = '';
@@ -300,10 +304,12 @@ angular.module('OceoECommerce.Login', [
                 
                 console.log("google getUserInfo");
                 console.log(user);
-                security.setCurrentUser(user);
+                
                 user.act = 19;//create account
                 User.createUser(user);
-               // $cookieStore.put('userInfo', user);
+				user.Password = '';
+				console.log(user);
+				security.setCurrentUser(user);
                $rootScope.$broadcast('userLoggedIn',APP_CONFIG.SocialWeb.Google);
 		        //$scope.loaderHide();
 		        //$state.go('app.dashboard');
@@ -460,10 +466,11 @@ angular.module('OceoECommerce.Login', [
 		                    	user.Avatar = response.picture.data.url;
 		                    }
 		                    //user.Avatar = "http://graph.facebook.com/" + success.authResponse.userID + "/picture?type=large";
-		                    security.setCurrentUser(user);
 		                    user.act = 19;//create account
 		                    User.createUser(user);
-		                   // $cookieStore.put('userInfo', user);
+		                    user.Password = '';
+							console.log(user);
+							security.setCurrentUser(user);
 		                   $rootScope.$broadcast('userLoggedIn',APP_CONFIG.SocialWeb.Facebook);
 
 						}, function(fail){

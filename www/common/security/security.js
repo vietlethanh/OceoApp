@@ -92,7 +92,7 @@ angular.module('security.service', [
 				//return info.currentUser;
 				var cache;
 				cache = CacheUtil.getOfflineAppCache();
-				console.log(cache);
+				//console.log(cache);
 				
 				var infoCache = cache.get('/security/info');	
 				//itemsData = cache.get(cacheKey);	
@@ -109,8 +109,8 @@ angular.module('security.service', [
 			},
 			getCurrentUserId: function(){
 				var user = this.getCurrentUser();
-				console.log(user);
-				return user ? user.UserID: 'guest';
+				//console.log(user);
+				return user ? user.ExternalID: 'guest';
 			},
 			getCurrentUserName: function(){
 				var user = this.getCurrentUser();

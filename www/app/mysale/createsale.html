@@ -8,18 +8,36 @@
 				<div class="item item-divider">Bạn muốn bán gì?</div>
 				
 				<label class="item item-input">
-					<input name="productName" type="text" placeholder="Tên sản phẩm" ng-model="newsale.ProductName" required minlength="5" maxlength="50" />
-					<span class="help-block" ng-show="showInvalid && createSaleForm.name.$error.required"></span>
+					<input name="ProductName" type="text" placeholder="Tên sản phẩm" ng-model="newsale.ProductName" required minlength="5" maxlength="50" />
+					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductName.$error.required"></span>
 			  	</label>
 			  	<label class="item item-input">
-					<input type="text" placeholder="Giá bán" ng-model="newsale.Price" ui-number-mask="0" min="1000" max="100000000000" maxlength="15" minlength="4" >
-					<span class="help-block" ng-show="showInvalid && createSaleForm.name.$error.required"></span>
+					<input name="ProductAddress" type="text" placeholder="Địa chỉ" forceSelection="true" vs-google-autocomplete ng-model="newsale.Address" 
+					 vs-place="autoAddress.place" 
+			         vs-place-id="autoAddress.components.placeId"
+			         vs-street-number="autoAddress.components.streetNumber" 
+			         vs-street="autoAddress.components.street"
+			         vs-city="autoAddress.components.city"
+			         vs-state="autoAddress.components.state"
+			         vs-country-short="autoAddress.components.countryCode"
+			         vs-country="autoAddress.components.country"
+			         vs-district = "autoAddress.components.district"
+			         vs-latitude = "autoAddress.components.location.lat"
+			         vs-longitude = "autoAddress.components.location.long"
+					required minlength="5" maxlength="200"  ng-blur="onAddressChange()" />
+					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductAddress.$error.required"></span>
+			  	</label>
+			  	<label class="item item-input">
+					<input name="ProductPhone" type="text" placeholder="Điện thoại liên hệ" ng-model="newsale.Phone" required minlength="5" maxlength="200" />
+					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductPhone.$error.required"></span>
+			  	</label>
+			  	<label class="item item-input">
+					<input type="text" name="ProductPrice" placeholder="Giá bán" ng-model="newsale.Price" ui-number-mask="0" min="1000" max="100000000000" maxlength="15" minlength="4" >
+					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductPrice.$error.required"></span>
 			  	</label>
 			  	<label class="item item-input">
 					<textarea placeholder="Mô tả"" placeholder="Mô tả" ng-model="newsale.Description"></textarea>
 			  	</label>
-			  
-			  
 			</div>
 			<div class="row" >
 				<div class="col col-50"> 

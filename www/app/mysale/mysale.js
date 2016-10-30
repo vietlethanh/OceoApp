@@ -1,8 +1,11 @@
 angular.module('Oceo.MySale', [
-	//'OceoECommerce.Resource.Sale',
+	'OceoECommerce.Resource.Sale',
 	'OceoECommerce.Sheet',
 	'OceoECommerce.Push',
-	'ui.utils.masks'
+	'ui.utils.masks',
+	'OceoECommerce.Utils',
+	'vsGoogleAutocomplete',	
+
 ])
 .controller('MySaleCtrl', ['$q','$scope', 'security', '$ionicLoading','$ionicPopup',
 	'APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',
@@ -39,16 +42,45 @@ angular.module('Oceo.MySale', [
 		MCMTracker.trackView('MySale');		
 	}
 ])
-.controller('CreateSaleCtrl', ['$scope', '$q', 'security','APP_CONFIG', '$cordovaFileTransfer','$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera',
-	function($scope, $q, security, APP_CONFIG, $cordovaFileTransfer,$ionicLoading, $ionicPopup,$cordovaImagePicker,$cordovaCamera) {
+.controller('CreateSaleCtrl', ['$scope', '$q', 'security','Sale','APP_CONFIG','MapUtil', '$cordovaFileTransfer','$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera',
+	function($scope, $q, security,Sale, APP_CONFIG,MapUtil, $cordovaFileTransfer,$ionicLoading, $ionicPopup,$cordovaImagePicker,$cordovaCamera) {
 		
 		// private properties -------------------------------------------------------------
 		var userId = security.getCurrentUserId(),
+			currentUser = security.getCurrentUser();
+		console.log('UserID:' + userId);
 		// public properties -------------------------------------------------------------
 		
 		// scope properties -------------------------------------------------------------
 		$scope.images = [];
-		$scope.newsale = {};
+		$scope.newsale = {}
+		$scope.autoAddress = {
+			    name: '',
+			    place:'',
+			    components: {
+			      placeId: '',
+			      streetNumber: '', 
+			      street: '',
+			      city: '',
+			      state: '',
+			      countryCode: '',
+			      country: '',
+			      postCode: '',
+			      district: '',
+			      location: {
+			        lat: '',
+			        long: ''
+			      }
+			    }
+			  };
+		var currentLocation = {};
+		MapUtil.getLocation().then(function(data){
+			console.log('currentLocation');
+			currentLocation.lat = data.coords.latitude;
+			currentLocation.long = data.coords.longitude;
+		});
+		
+		
 		// private method -------------------------------------------------------------
 		var init = function(){
 			var pickerOptions = {
@@ -57,7 +89,7 @@ angular.module('Oceo.MySale', [
 				   	height: 800,
 				   	quality: 80
 			};
-
+			
 			/*
 			$cordovaImagePicker.getPictures(pickerOptions)
 			    .then(function (results) {
@@ -68,6 +100,7 @@ angular.module('Oceo.MySale', [
 			      // error getting photos
 			});  
 			*/
+
 			$scope.takePhoto = function () {
                   var options = {
                     quality: 75,
@@ -131,7 +164,19 @@ angular.module('Oceo.MySale', [
                 });
             };
             //public method -------------------------------------------------------------
+            $scope.onAddressChange = function(event){
+				
+				if(!$scope.autoAddress.components.placeId )
+				{
+					$scope.newsale.Address='';
+					$ionicPopup.alert({
+					     title: 'Thông báo',
+					     template: 'Xin hãy chọn một địa chỉ trong danh sách!'
+					});	
+				}
+			};
 			$scope.save = function(form){
+				
 				if(form.invalid){
 					return;
 				}
@@ -142,13 +187,36 @@ angular.module('Oceo.MySale', [
 				if(!$scope.newsale){
 					return;
 				}
+				if($scope.autoAddress && $scope.autoAddress.components && $scope.autoAddress.components.placeId )
+				{
+					$scope.newsale.Address = $scope.autoAddress.components.streetNumber + ' ' + $scope.autoAddress.components.street;
+					$scope.newsale.District = $scope.autoAddress.components.district;
+					$scope.newsale.City = $scope.autoAddress.components.city;
+					$scope.newsale.Country = $scope.autoAddress.components.countryCode;
+					$scope.newsale.Zipcode = $scope.autoAddress.components.postCode;
+					$scope.newsale.GPlaceID = $scope.autoAddress.components.placeId;
+					$scope.newsale.Latitue = $scope.autoAddress.components.location.lat;
+					$scope.newsale.Longitude=$scope.autoAddress.components.location.long
+
+				}
+				else
+				{
+					$scope.newsale.Latitue = currentLocation.lat;
+					$scope.newsale.Longitude = currentLocation.long;
+				}
+				$scope.newsale.SellerID = userId;
+				$scope.newsale.SocialType = currentUser.SocialWeb;
 				$ionicLoading.show();
-				return Sale.addSale($scope.newsale, userId)
+				return Sale.addSale($scope.newsale)
 				.then(function(res){
-					$scope.newsale= {};
-							
-					//return loadData();
+					$ionicLoading.hide();
+					$scope.newsale= {};		
+					$ionicPopup.alert({
+					     title: '',
+					     template: 'Đăng tin bán sản phẩm thành công!'
+					});	
 				});
+				
 			};
 		};
 

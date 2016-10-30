@@ -8,11 +8,11 @@ angular.module('OceoECommerce.Account', [
 .controller('AccountCtrl', ['$rootScope','$scope','$state','$q', 'Store', 'User', 'security','$ionicLoading','AppUtil','MCMTracker','ngFB',
 	function($rootScope,$scope, $state,$q, Store, User, security, $ionicLoading, AppUtil,MCMTracker,ngFB) {  
 		
-		//console.log('dang thu trang')
+	
 		// private properties -------------------------------------------------------------
 		// public properties -------------------------------------------------------------
 		// scope properties -------------------------------------------------------------
-		//$scope.user = angular.copy(security.getCurrentUser());
+	
 		$scope.userStore = null;
 		//console.log($scope.user);
 		// private method -------------------------------------------------------------
