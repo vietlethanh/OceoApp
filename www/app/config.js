@@ -105,8 +105,9 @@ var unitedAppCfg = {
 	SocialWeb : socialWeb,
 	EnumSys:enumsys,
 	TrackType: trackType,
+    KooKooAPI: 'http://192.168.88.233:8080'
 	//KooKooAPI: 'https://kookoo.vn'
-	KooKooAPI: 'http://kookoo.local:8080'
+	//KooKooAPI: 'http://kookoo.local:8080'
 }
 
 var matchedCodes = {

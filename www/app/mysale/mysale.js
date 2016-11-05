@@ -164,17 +164,29 @@ angular.module('Oceo.MySale', [
                 });
             };
             //public method -------------------------------------------------------------
-            $scope.onAddressChange = function(event){
-				
-				if(!$scope.autoAddress.components.placeId )
-				{
-					$scope.newsale.Address='';
-					$ionicPopup.alert({
-					     title: 'Thông báo',
-					     template: 'Xin hãy chọn một địa chỉ trong danh sách!'
-					});	
-				}
-			};
+           $scope.onAddressChange = function(event){
+           	
+                    setTimeout(function() {
+                       if(!$scope.autoAddress.components.placeId )
+                       {
+	                       $scope.newsale.Address='';
+	                       $ionicPopup.alert({
+	                                         title: 'Thông báo',
+	                                         template: 'Xin hãy chọn một địa chỉ trong danh sách!'
+	                                         });	
+	                       }
+                       }, 2000);
+           
+           };
+            $scope.disableTap = function(){
+			    container = document.getElementsByClassName('pac-container');
+			    // disable ionic data tab
+			    angular.element(container).attr('data-tap-disabled', 'true');
+			    // leave input field if google-address-entry is selected
+			    angular.element(container).on("click", function(){
+			        document.getElementById('ProductAddress').blur();
+			    });
+			  };
 			$scope.save = function(form){
 				
 				if(form.invalid){

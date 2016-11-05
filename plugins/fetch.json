@@ -55,14 +55,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "phonegap-facebook-plugin": {
-        "source": {
-            "type": "registry",
-            "id": "phonegap-facebook-plugin"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-geolocation": {
         "source": {
             "type": "registry",
@@ -85,7 +77,9 @@
             "id": "cordova-plugin-googleplus"
         },
         "is_top_level": true,
-        "variables": {}
+        "variables": {
+            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.1070103978451-q60u6rp60bjai9dage7cd3cod8plqvmk"
+        }
     },
     "cordova-plugin-email-composer": {
         "source": {
@@ -118,5 +112,16 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-facebook4": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-facebook4"
+        },
+        "is_top_level": true,
+        "variables": {
+            "APP_ID": "1806019132977991",
+            "APP_NAME": "oceoapp"
+        }
     }
 }

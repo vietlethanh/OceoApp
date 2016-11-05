@@ -1,9 +1,10 @@
-<ion-view title="Đăng mới" id="CreateSale">
+<ion-view title="Đăng mới" id="CreateSale" >
 	<ion-nav-buttons side="left">
 		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
 	</ion-nav-buttons>
 	<ion-content class="has-header">
 		<form id="create-sale-form" name="createSaleForm" novalidate ng-submit="save(create-sale-form)">
+
 			<div class="list edit-list">
 				<div class="item item-divider">Bạn muốn bán gì?</div>
 				
@@ -12,7 +13,7 @@
 					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductName.$error.required"></span>
 			  	</label>
 			  	<label class="item item-input">
-					<input name="ProductAddress" type="text" placeholder="Địa chỉ" forceSelection="true" vs-google-autocomplete ng-model="newsale.Address" 
+					<input name="ProductAddress" id="ProductAddress" type="text" placeholder="Địa chỉ" autocomplete="off" vs-google-autocomplete ng-model="newsale.Address" 
 					 vs-place="autoAddress.place" 
 			         vs-place-id="autoAddress.components.placeId"
 			         vs-street-number="autoAddress.components.streetNumber" 
@@ -24,9 +25,10 @@
 			         vs-district = "autoAddress.components.district"
 			         vs-latitude = "autoAddress.components.location.lat"
 			         vs-longitude = "autoAddress.components.location.long"
-					required minlength="5" maxlength="200"  ng-blur="onAddressChange()" />
+					required minlength="5" maxlength="200"  ng-blur="onAddressChange()"  ng-focus="disableTap()" />
 					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductAddress.$error.required"></span>
 			  	</label>
+			  
 			  	<label class="item item-input">
 					<input name="ProductPhone" type="text" placeholder="Điện thoại liên hệ" ng-model="newsale.Phone" required minlength="5" maxlength="200" />
 					<span class="help-block" ng-show="showInvalid && createSaleForm.ProductPhone.$error.required"></span>

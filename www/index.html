@@ -148,6 +148,7 @@
 	<script src="app/search/search.js"></script>
 	<script src="app/search/searchcoupons.js"></script>
 	<script src="lib/ng-cordova-oauth/dist/ng-cordova-oauth.min.js"></script>
+
   	   <!-- cordova script (this will be a 404 during development) -->
    
 <script>
@@ -166,9 +167,9 @@
             }(document  // Facebbok OAuth init
            */
               // Facebbok OAuth init
-            window.fbAsyncInit = function () {
+            /*window.fbAsyncInit = function () {
                 FB.init({
-                    appId: '117244345278368', //Local:117244345278368, Live:871963922911532 Replace the App ID with yours vietlethanh1988@yahoo.com
+                    appId: '1806019132977991', //Local:117244345278368, Live:871963922911532 Replace the App ID with yours vietlethanh1988@yahoo.com
                     status: true, // check login status
                     cookie: true, // enable cookies to allow the server to access the session
                     xfbml: true , // parse XFBML
@@ -183,6 +184,7 @@
 			     js.src = "//connect.facebook.net/en_US/sdk.js";
 			     fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));
+             */
             // Facebbok OAuth init - END
             
             // Google OAuth Init
@@ -201,8 +203,14 @@
                 gapi.client.load('plus', 'v1', function () {
                 });
             }
+           
             // Google Oauth Init - END
         </script>
+        <style>
+        	body .pac-container {  //this is a fix for google autocomplete not showing up
+                
+            }
+        </style>
   </head>
 
   <body ng-app="OceoECommerce" >
