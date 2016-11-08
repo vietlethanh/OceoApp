@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Image",
+				"ImageUtil"
+			],
+			[
 				"is",
 				"isIOS"
 			],
@@ -67,18 +71,24 @@
 			"file": "www/app/mysale/mysale.js",
 			"settings":
 			{
-				"buffer_size": 8574,
+				"buffer_size": 9272,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 53 files for \"setTimeout\"\n\n/Users/vietle/Projects/OceoApp/www/app/mysale/mysale.js:\n  168:                     $setTimeout(function() {\n\n/Users/vietle/Projects/OceoApp/www/app/storelocator/storelocator.js:\n  797:         setTimeout(function() { calcRoute(start,end);}, 500);  \n\n2 matches across 2 files\n",
+			"file": "www/app/config.js",
 			"settings":
 			{
-				"buffer_size": 313,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 5179,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/common/utils/utils.js",
+			"settings":
+			{
+				"buffer_size": 14168,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -86,30 +96,6 @@
 			"settings":
 			{
 				"buffer_size": 31806,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/app/mysale/createsale.html",
-			"settings":
-			{
-				"buffer_size": 3429,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 9534,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/app/app.js",
-			"settings":
-			{
-				"buffer_size": 18245,
 				"line_ending": "Windows"
 			}
 		}
@@ -138,15 +124,21 @@
 	},
 	"file_history":
 	[
-		"/Users/vietle/Projects/OceoApp/www/app/config.js",
+		"/Users/vietle/Projects/OceoApp/platforms/ios/www/app/mysale/createsale.html",
+		"/Users/vietle/Projects/OceoApp/platforms/ios/www/app/mysale/mysale.js",
+		"/Users/vietle/Projects/OceoApp/www/app/mysale/mysale.js",
+		"/Users/vietle/Projects/OceoApp/www/common/utils/utils.js",
+		"/Users/vietle/Projects/OceoApp/www/app/storelocator/storelocator.js",
 		"/Users/vietle/Projects/OceoApp/www/app/mysale/createsale.html",
+		"/Users/vietle/Projects/OceoApp/www/index.html",
+		"/Users/vietle/Projects/OceoApp/www/app/app.js",
+		"/Users/vietle/Projects/OceoApp/www/common/services/services.js",
+		"/Users/vietle/Projects/OceoApp/www/app/config.js",
 		"/Users/vietle/Projects/OceoApp/www/app/shoppinglist/create.html",
 		"/Users/vietle/Projects/OceoApp/www/app/shoppinglist/shoppinglist.js",
 		"/Users/vietle/Projects/OceoApp/platforms/ios/www/app/app.js",
-		"/Users/vietle/Projects/OceoApp/www/app/app.js",
 		"/Users/vietle/Projects/OceoApp/www/common/resources/shoppinglist.js",
 		"/Users/vietle/Projects/OceoApp/www/common/resources/sale.js",
-		"/Users/vietle/Projects/OceoApp/platforms/ios/www/app/mysale/mysale.js",
 		"/Users/vietle/Projects/OceoApp/bower.json",
 		"/Users/vietle/Projects/OceoApp/ionic.project",
 		"/Users/vietle/Projects/OceoApp/plugins/fetch.json",
@@ -246,7 +238,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/vietle/Projects/OceoApp/www/app",
@@ -416,7 +408,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -424,76 +416,84 @@
 					"file": "www/app/mysale/mysale.js",
 					"settings":
 					{
-						"buffer_size": 8574,
+						"buffer_size": 9272,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6746,
-								6756
+								4198,
+								4211
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2413.0,
+						"translation.y": 1622.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "www/app/config.js",
 					"settings":
 					{
-						"buffer_size": 313,
+						"buffer_size": 5179,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										122,
-										132
-									],
-									[
-										231,
-										241
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								243,
-								243
+								4260,
+								4260
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1183.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "www/common/utils/utils.js",
+					"settings":
+					{
+						"buffer_size": 14168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13146,
+								13410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6709.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "www/app/storelocator/storelocator.js",
 					"settings":
 					{
@@ -504,8 +504,8 @@
 						"selection":
 						[
 							[
-								27923,
-								27977
+								358,
+								358
 							]
 						],
 						"settings":
@@ -515,87 +515,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11642.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "www/app/mysale/createsale.html",
-					"settings":
-					{
-						"buffer_size": 3429,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1762,
-								1762
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 59.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/index.html",
-					"settings":
-					{
-						"buffer_size": 9534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9160,
-								9160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2844.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "www/app/app.js",
-					"settings":
-					{
-						"buffer_size": 18245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2595,
-								2595
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 777.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

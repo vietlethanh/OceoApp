@@ -8,8 +8,10 @@ angular.module('Oceo.MySale', [
 
 ])
 .controller('MySaleCtrl', ['$q','$scope', 'security', '$ionicLoading','$ionicPopup',
-	'APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate','$timeout','phone', 'toaster',
-	function($q,$scope, security,  $ionicLoading,$ionicPopup, APP_CONFIG, $Sheet, $ionicModal,MCMTracker, $ionicScrollDelegate,$timeout, phone, toaster){
+	'APP_CONFIG','$Sheet','$ionicModal','MCMTracker','$ionicScrollDelegate',
+	'$timeout','phone', 'toaster','$ionicActionSheet',
+	function($q,$scope, security,  $ionicLoading,$ionicPopup, APP_CONFIG, 
+		$Sheet, $ionicModal,MCMTracker, $ionicScrollDelegate,$timeout, phone, toaster,$ionicActionSheet){
 		var vm = this;
 		// private properties -------------------------------------------------------------
 		var userId = security.getCurrentUserId(),
@@ -42,8 +44,10 @@ angular.module('Oceo.MySale', [
 		MCMTracker.trackView('MySale');		
 	}
 ])
-.controller('CreateSaleCtrl', ['$scope', '$q', 'security','Sale','APP_CONFIG','MapUtil', '$cordovaFileTransfer','$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera',
-	function($scope, $q, security,Sale, APP_CONFIG,MapUtil, $cordovaFileTransfer,$ionicLoading, $ionicPopup,$cordovaImagePicker,$cordovaCamera) {
+.controller('CreateSaleCtrl', ['$scope', '$q', 'security','Sale','APP_CONFIG','MapUtil', '$cordovaFileTransfer',
+	'$ionicLoading', '$ionicPopup', '$cordovaImagePicker','$cordovaCamera','$ionicActionSheet','ImageUtil',
+	function($scope, $q, security,Sale, APP_CONFIG,MapUtil, $cordovaFileTransfer,$ionicLoading, $ionicPopup,
+		$cordovaImagePicker,$cordovaCamera,$ionicActionSheet,ImageUtil) {
 		
 		// private properties -------------------------------------------------------------
 		var userId = security.getCurrentUserId(),
@@ -100,7 +104,27 @@ angular.module('Oceo.MySale', [
 			      // error getting photos
 			});  
 			*/
-
+			$scope.addMedia = function() {
+			    $scope.hideSheet = $ionicActionSheet.show({
+			      buttons: [
+			        { text: 'Take photo' },
+			        { text: 'Photo from library' }
+			      ],
+			      titleText: 'Add images',
+			      cancelText: 'Cancel',
+			      buttonClicked: function(index) {
+			      	 $scope.addImage(index);       
+			      }
+			    });
+			}
+			$scope.addImage = function(type) {
+			    $scope.hideSheet();
+			    ImageUtil.handleMediaDialog(type).then(function(imageUri) {
+			       $scope.images.push(imageUri);
+			       $scope.$apply();
+			    });
+			}
+			  
 			$scope.takePhoto = function () {
                   var options = {
                     quality: 75,

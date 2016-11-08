@@ -427,7 +427,7 @@ angular.module('OceoECommerce.Utils', [
 	};
 	return util;
 	}])
-.factory('ImageService', function($cordovaCamera, FileService, $q, $cordovaFile) {
+.factory('ImageUtil',['$cordovaCamera','$q','$cordovaFile', function($cordovaCamera, $q, $cordovaFile) {
  
   function makeid() {
     var text = '';
@@ -450,20 +450,28 @@ angular.module('OceoECommerce.Utils', [
         break;
     }
     return {
-      destinationType: Camera.DestinationType.FILE_URI,
-      sourceType: source,
-      allowEdit: false,
-      encodingType: Camera.EncodingType.JPEG,
-      popoverOptions: CameraPopoverOptions,
-      saveToPhotoAlbum: false
+			destinationType: Camera.DestinationType.FILE_URI,
+			sourceType: source,
+			allowEdit: false,
+			encodingType: Camera.EncodingType.JPEG,
+			popoverOptions: CameraPopoverOptions,
+			saveToPhotoAlbum: false,
+			targetWidth: 300,
+			targetHeight: 300,
+			quality: 75,
     };
   }
  
   function saveMedia(type) {
     return $q(function(resolve, reject) {
       var options = optionsForType(type);
- 
+ 	  
+ 	  
       $cordovaCamera.getPicture(options).then(function(imageUrl) {
+        resolve(imageUrl);
+        
+
+        /*
         var name = imageUrl.substr(imageUrl.lastIndexOf('/') + 1);
         var namePath = imageUrl.substr(0, imageUrl.lastIndexOf('/') + 1);
         var newName = makeid() + name;
@@ -474,11 +482,12 @@ angular.module('OceoECommerce.Utils', [
           }, function(e) {
             reject();
           });
+		*/
       });
     })
   }
   return {
     handleMediaDialog: saveMedia
   }
-})
+}])
 ;
